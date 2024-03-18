@@ -1,0 +1,7 @@
+{
+    "[EntryModule][$$p_8e93.unit.狼人].DisplayName":"怪物-狼人",
+    "[EntryNode][$$p_8e93.unit.狼人.Buff_1].Data.Game.Name":"Buff节点_1",
+    "[EntryNode][$$p_8e93.unit.狼人.SpellRootCircle_1].Data.Game.Name":"普攻",
+    "[EntryNode][$$p_8e93.unit.狼人.SpellRootInstant_1].Data.Game.Name":"暴走",
+    "[EntryNode][$$p_8e93.unit.狼人.root].Data.Game.Name":"狼人"
+}

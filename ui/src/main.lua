@@ -1,0 +1,1 @@
+require '@gameui.simple_ui.init'

@@ -1,0 +1,5 @@
+{
+    "[EntryModule][$$p_8e93.unit.群体范围塔_1].DisplayName":"防御塔-群体范围塔",
+    "[EntryNode][$$p_8e93.unit.群体范围塔_1.Unit].Data.Game.Name":"投射物单位模版",
+    "[EntryNode][$$p_8e93.unit.群体范围塔_1.root].Data.Game.Name":"群体范围塔"
+}

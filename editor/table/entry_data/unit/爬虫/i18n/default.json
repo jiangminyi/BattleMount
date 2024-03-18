@@ -1,0 +1,7 @@
+{
+    "[EntryModule][$$p_8e93.unit.爬虫].DisplayName":"怪物-爬虫",
+    "[EntryNode][$$p_8e93.unit.爬虫.Buff_1].Data.Game.Name":"Buff节点_1",
+    "[EntryNode][$$p_8e93.unit.爬虫.SpellRootVector_1].Data.Game.Name":"普攻",
+    "[EntryNode][$$p_8e93.unit.爬虫.UnitMissile_1].Data.Game.Name":"投射物单位模版_1",
+    "[EntryNode][$$p_8e93.unit.爬虫.root].Data.Game.Name":"爬虫"
+}

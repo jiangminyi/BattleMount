@@ -1,0 +1,5 @@
+{
+    "[EntryNode][$$p_8e93.item.单体减速塔.SpellBuild].Data.Game.Name":"单体减速塔",
+    "[EntryNode][$$p_8e93.item.单体减速塔.root].Data.Game.Description":"每秒对1000范围内的一个敌对单位造成等级*30点魔法伤害，并附带250*等级的减速效果；这个信息可以在物品蓝图中配置",
+    "[EntryNode][$$p_8e93.item.单体减速塔.root].Data.Game.Name":"单体减速塔"
+}

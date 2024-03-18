@@ -1,0 +1,6 @@
+{
+    "[EntryModule][$$p_8e93.unit.秃鹫].DisplayName":"怪物-秃鹫",
+    "[EntryNode][$$p_8e93.unit.秃鹫.SpellRootCircle_1].Data.Game.Name":"普攻",
+    "[EntryNode][$$p_8e93.unit.秃鹫.SpellRootCircle_1_1].Data.Game.Name":"猛击",
+    "[EntryNode][$$p_8e93.unit.秃鹫.root].Data.Game.Name":"秃鹫"
+}

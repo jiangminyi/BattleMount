@@ -1,0 +1,5 @@
+{
+    "[EntryModule][$$p_8e93.unit.英雄].DisplayName":"玩家默认单位",
+    "[EntryNode][$$p_8e93.unit.英雄.ItemContainer].Data.Game.Name":"玩家背包",
+    "[EntryNode][$$p_8e93.unit.英雄.root].Data.Game.Name":"玩家默认单位"
+}

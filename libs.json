@@ -1,0 +1,14 @@
+{
+	"lib_plotdialogue": "script_libs/lib_plotdialogue",
+	"lib_region": "script_libs/lib_region",
+	"lib_control": "script_libs/lib_control",
+	"lib_game_options": "script_libs/lib_game_options",
+	"lib_common_ai": "ai_templates/lib_common_ai",
+	"defaultui": "defaultui",
+	"default_units_ts": "default_units_ts",
+	"smallcard_inventory": "script_libs/smallcard_inventory",
+	"smallcard_store": "script_libs/smallcard_store",
+	"smallcard_unit_attr_panel": "script_libs/smallcard_unit_attr_panel",
+	"smallcard_get_items": "script_libs/smallcard_get_items",
+	"smallcard_mail": "script_libs/smallcard_mail"
+}

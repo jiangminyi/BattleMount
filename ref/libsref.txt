@@ -1,0 +1,13 @@
+maps/ai_templates/lib_common_ai
+maps/default_units_ts
+maps/defaultui
+maps/script_libs/lib_common_sounds
+maps/script_libs/lib_control
+maps/script_libs/lib_game_options
+maps/script_libs/lib_plotdialogue
+maps/script_libs/lib_region
+maps/script_libs/smallcard_get_items
+maps/script_libs/smallcard_inventory
+maps/script_libs/smallcard_mail
+maps/script_libs/smallcard_store
+maps/script_libs/smallcard_unit_attr_panel
