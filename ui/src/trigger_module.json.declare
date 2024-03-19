@@ -6449,14 +6449,6 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Trigger:显示防御塔面板:2132803584",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"client"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
                                     "id":"Trigger:更新血量:3179151360.0",
                                     "packageName":"p_8e93",
                                     "s_or_c":"client"
@@ -6466,6 +6458,14 @@
                                 "ElementName":"Source",
                                 "targetUninit":{
                                     "id":"Trigger:更新金钱:2155872256.0",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"client"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:显示防御塔面板:2132803584",
                                     "packageName":"p_8e93",
                                     "s_or_c":"client"
                                 }
@@ -6613,6 +6613,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6663,6 +6664,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6713,6 +6715,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6763,6 +6766,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7078,6 +7082,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7128,6 +7133,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7444,6 +7450,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7494,6 +7501,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7544,6 +7552,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7594,6 +7603,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7644,6 +7654,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7694,6 +7705,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8327,6 +8339,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8377,6 +8390,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9329,6 +9343,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9379,6 +9394,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9429,6 +9445,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9479,6 +9496,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9529,6 +9547,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9579,6 +9598,7 @@
                                             "s_or_c":"client"
                                         }
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<node origin="Editor/Light/Engine/default.lightgroup" id="123436">
-	<component type="Zone" id="34906">
+<node origin="Editor/Light/Engine/default.lightgroup">
+	<component type="Zone">
 		<attribute name="Bounding Box Min" value="-100000.00 -100000.00 -100000.00" />
 		<attribute name="Bounding Box Max" value="100000.00 100000.00 100000.00" />
 		<attribute name="Ambient Color" value="0 0.01717 0.05 1" />
@@ -13,10 +13,10 @@
 		<attribute name="Height Fog Falloff" value="0.16" />
 		<attribute name="Height Fog Height" value="-1600" />
 		<attribute name="Height Fog Enable" value="true" />
-		<attribute name="Using EnvCube" value="true" />
 		<attribute name="Env Diff Texture" value="TextureX;cube/day/daydiffusehdr.dds" />
 		<attribute name="Env Spec Texture" value="TextureX;cube/day/dayspecularhdr.dds" />
 		<attribute name="Water Reflection Cube" value="TextureX;cube/day/daywaterreflection.dds" />
+		<attribute name="Vignette Texture" value="TextureX;editor/textures/engine/vignetting.png" />
 		<attribute name="Env texture diff intensity" value="0.3" />
 		<attribute name="Env texture spec intensity" value="0.3" />
 		<attribute name="Env Cube Angle" value="290" />
@@ -27,7 +27,7 @@
 		<attribute name="Role SphericalHarmonicsL2" value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
 		<attribute name="Using Water Reflection Param" value="true" />
 	</component>
-	<node id="123437">
+	<node>
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="" />
 		<attribute name="Tags" />
@@ -35,7 +35,7 @@
 		<attribute name="Rotation" value="0.165611 -0.052217 -0.939228 -0.296137" />
 		<attribute name="Scale" value="1.00 1.00 1.00" />
 		<attribute name="Variables" />
-		<component type="Light" id="34907">
+		<component type="Light">
 			<attribute name="Light Type" value="Directional" />
 			<attribute name="Color" value="1 0.92736 0.9 1" />
 			<attribute name="Brightness Multiplier" value="3" />
@@ -52,6 +52,8 @@
 			<attribute name="Ignore Ray" value="true" />
 			<attribute name="Auto Shadow Cascade" value="true" />
 			<attribute name="Num Auto Shadow Cascade" value="4" />
+			<attribute name="Absorption Intensity" value="0.1" />
+			<attribute name="Volumetric Blend" value="1" />
 		</component>
 	</node>
 </node>

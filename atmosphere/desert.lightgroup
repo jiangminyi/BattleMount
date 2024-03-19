@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<node origin="Editor/Light/Engine/desert.lightgroup" id="243112">
-	<component type="Zone" id="47664">
+<node origin="Editor/Light/Engine/desert.lightgroup">
+	<component type="Zone">
 		<attribute name="Bounding Box Min" value="-100000.00 -100000.00 -100000.00" />
 		<attribute name="Bounding Box Max" value="100000.00 100000.00 100000.00" />
 		<attribute name="Ambient Color" value="0.05 0.01641 0 1" />
@@ -13,7 +13,6 @@
 		<attribute name="Height Fog Falloff" value="0.06" />
 		<attribute name="Height Fog Height" value="-2500" />
 		<attribute name="Height Fog Enable" value="true" />
-		<attribute name="Using EnvCube" value="true" />
 		<attribute name="Env Diff Texture" value="TextureX;cube/dusk/duskdiffusehdr.dds" />
 		<attribute name="Env Spec Texture" value="TextureX;cube/dusk/duskspecularhdr.dds" />
 		<attribute name="Water Reflection Cube" value="TextureX;cube/day/daywaterreflection.dds" />
@@ -30,7 +29,7 @@
 		<attribute name="Using Vignette" value="true" />
 		<attribute name="Vignette Intensity" value="0.18" />
 	</component>
-	<node id="243113">
+	<node>
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="" />
 		<attribute name="Tags" />
@@ -38,7 +37,7 @@
 		<attribute name="Rotation" value="0.165609 -0.0522164 -0.939216 -0.296133" />
 		<attribute name="Scale" value="1.00 1.00 1.00" />
 		<attribute name="Variables" />
-		<component type="Light" id="47665">
+		<component type="Light">
 			<attribute name="Light Type" value="Directional" />
 			<attribute name="Color" value="1 0.79222 0.6 1" />
 			<attribute name="Brightness Multiplier" value="6" />

@@ -33,7 +33,7 @@
 		<attribute name="Name" value="" />
 		<attribute name="Tags" />
 		<attribute name="Position" value="100000.00 0.00 0.00" />
-		<attribute name="Rotation" value="0.289517 0.280401 -0.845183 -0.351015" />
+		<attribute name="Rotation" value="0.289517 0.280401 -0.845181 -0.351015" />
 		<attribute name="Scale" value="1.00 1.00 1.00" />
 		<attribute name="Variables" />
 		<component type="Light">
