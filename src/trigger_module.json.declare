@@ -4717,7 +4717,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Variable:电脑玩家:1717352258",
+                                    "id":"Variable:防御塔升级所需经验:1309933568",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -4725,7 +4725,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Variable:防御塔升级所需经验:1309933568",
+                                    "id":"Variable:电脑玩家:1717352258",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -4813,6 +4813,14 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
+                                    "id":"CustomEvent:防御塔选中:1095630848",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
                                     "id":"CustomEvent:游戏结束:3996647424.0",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
@@ -4822,14 +4830,6 @@
                                 "ElementName":"Source",
                                 "targetUninit":{
                                     "id":"CustomEvent:血量变化:1266548736",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"CustomEvent:防御塔选中:1095630848",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -4885,23 +4885,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Trigger:怪物创建:3763208192.0",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"Trigger:怪物死亡:3218472960.0",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"Trigger:怪物到达终点:1417543680",
+                                    "id":"Trigger:拾取金币:953810944",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -4941,7 +4925,23 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Trigger:拾取金币:953810944",
+                                    "id":"Trigger:怪物创建:3763208192.0",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:怪物死亡:3218472960.0",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:怪物到达终点:1417543680",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -5362,7 +5362,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -5413,7 +5412,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -5781,7 +5779,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6097,7 +6094,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6148,7 +6144,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6199,7 +6194,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6514,7 +6508,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6565,7 +6558,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6616,7 +6608,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6667,7 +6658,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6723,7 +6713,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6774,7 +6763,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6825,7 +6813,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -6876,7 +6863,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7667,7 +7653,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7718,7 +7703,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7769,7 +7753,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7820,7 +7803,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7871,7 +7853,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8238,7 +8219,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8606,7 +8586,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8657,7 +8636,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8973,7 +8951,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9024,7 +9001,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9075,7 +9051,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9126,7 +9101,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9494,7 +9468,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9810,7 +9783,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9861,7 +9833,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9912,7 +9883,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9963,7 +9933,6 @@
                                             "s_or_c":"server"
                                         }
                                     },
-                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{

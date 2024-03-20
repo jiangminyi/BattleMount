@@ -33,12 +33,13 @@
 		<attribute name="Name" value="" />
 		<attribute name="Tags" />
 		<attribute name="Position" value="100000.00 0.00 0.00" />
-		<attribute name="Rotation" value="0.289517 0.280401 -0.84518 -0.351015" />
+		<attribute name="Rotation" value="0.289517 0.280401 -0.845179 -0.351015" />
 		<attribute name="Scale" value="1.00 1.00 1.00" />
 		<attribute name="Variables" />
 		<component type="Light">
 			<attribute name="Light Type" value="Directional" />
 			<attribute name="Color" value="1 0.82756 0.76261 1" />
+			<attribute name="Weather Color" value="0.07308 0.02747 0.02747 1" />
 			<attribute name="Brightness Multiplier" value="3.5" />
 			<attribute name="Use Temperature" value="true" />
 			<attribute name="Range" value="0" />
