@@ -10,11 +10,11 @@ local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
 local lib_control = require '@lib_control.component'
-local gameui = require '@gameui.component'
 local smallcard_store = require '@smallcard_store.component'
 local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
-local lib_game_options = require '@lib_game_options.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
+local gameui = require '@gameui.component'
+local lib_game_options = require '@lib_game_options.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -136,7 +136,7 @@ return gui_pkg.page_template {
             show = true,
             socket_name = 'socket_root',
         },1,
-        gameui.sci_2_major_btn {
+        gameui.xf_1_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -164,7 +164,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.gf_2_rect {
+        gameui.sci_2_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -375,7 +375,7 @@ return gui_pkg.page_template {
             },
             name = '分割线',
         },6,
-        gameui.sci_2_major_btn {
+        gameui.xf_1_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -404,7 +404,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },7,
-        gameui.sci_2_major_btn {
+        gameui.xf_1_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -645,7 +645,7 @@ return gui_pkg.page_template {
             name = '拆除描述文本',
             text = '拆除',
         },22,
-        gameui.gf_2_rect {
+        gameui.sci_2_rect {
             border = {
                 bottom = 30,
                 left = 128,
