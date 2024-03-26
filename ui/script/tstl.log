@@ -1,0 +1,22 @@
+270.61309999227524:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Trigger","Item","Timer","Buff","Skill","Player","TriggerParamTable","TriggerEvent","UnitGroup","Actor","ScreenPos","Target","EffectParam","EffectParamShared","YPR旋转","DataCache","Camera","Slot","Vector","Region","Riseletter","Unit","Point","RegionRect","RegionCircle"],"globalModules":["coroutine","_G","log","base"]}
+1176.5267000198364:	Loaded 0 plugins
+1177.077799975872:	Parsing project settings
+1182.1762999892235:	Transforming D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_validator.ts
+1183.909900009632:	moduleName:
+1183.9157999753952:	validator
+1184.2017999887466:	exportScope:
+1184.2052000164986:	true
+1238.2761999964714:	Printing D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_validator.ts
+1252.3687000274658:	Transforming D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_module_main_1.ts
+1253.1068999767303:	moduleName:
+1253.1111000180244:	p_8e93
+1253.271899998188:	exportScope:
+1253.2741000056267:	true
+1277.946399986744:	Printing D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_module_main_1.ts
+1288.844300031662:	Constructing emit plan
+1289.3845999836922:	Resolving dependencies for D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_validator.ts
+1289.8464000225067:	Resolving dependencies for D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_module_main_1.ts
+1290.3567000031471:	Emitting output
+1290.575100004673:	Emitting D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_validator.lua
+1291.141000032425:	Emitting D:/Work/Tools/星火编辑器/Res/maps/BattleMount/ui/script/trigger_module_main_1.lua
+1291.5925000309944:	Emit finished!

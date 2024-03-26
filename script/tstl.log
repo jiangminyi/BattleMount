@@ -1,0 +1,22 @@
+1984.4177000522614:	{"globalClasses":["Array","Present","IEventNotify","Coroutine","Actor","Team","Timer","Snapshot","EffectParamShared","TriggerParamTable","Item","Region","ScreenPos","Target","UnitTable","EffectParam","Point","Mover","Unit","Buff","HealInstance","TriggerEvent","DamageInstance","Slot","Skill","Inventory","Player","Trigger","Line","UnitGroup","Sight","DataCache","AISearcher","ScoreCommitter","ScoreObjData","ScoreGetParam","UserID","ScoreData","ScoreSetParam","ScoreAddParam","ScoreMoneyData","ScoreListAddParam","ScoreListModifyParam","ScoreListDeleteParam","ScoreListData","ScoreMsgSendParam","ScoreMsgQueryParam","ScoreNameNewParam","ScoreNameSearchParam","ScoreChannelMsgData","ScoreGetRankListParam","ScoreGetUserRankParam","ScoreGetRankListData","ScoreGetUserRankData","ScoreGetRankTotalData","ScoreGetRankTotalParam","ScoreMsgData","ScoreListID","ScoreID","ScoreNameData","ScoreMsgID","ScoreMoneyParam","os","DateTime","UnitBuff","autotest_log","ScoreRankSetParam","ScoreRankAddParam","UnitPropertyBonus","SceneObject","Quest","QuestCondition","crop","ScoreCropData","Vector","ScoreClearParam","ScoreAddWithLimitParam","RegionRect","RegionCircle","Cast","ScoreAddWithHourLimitParam","ScoreAddWithDayLimitParam","ScoreAddWithWeekLimitParam","ScoreAddWithMonthLimitParam","ScoreAddWithYearLimitParam"],"globalModules":["coroutine","_G","log","base"]}
+3765.0356000065804:	Loaded 0 plugins
+3765.6644999980927:	Parsing project settings
+3777.478600025177:	Transforming D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_validator.ts
+3779.4606000185013:	moduleName:
+3779.466300010681:	validator
+3779.8141000270844:	exportScope:
+3779.8175000548363:	true
+4350.683800041676:	Printing D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_validator.ts
+4429.863800048828:	Transforming D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_module_main_1.ts
+4437.297000050545:	moduleName:
+4437.304500043392:	p_8e93
+4437.65600001812:	exportScope:
+4437.662000000477:	true
+4475.838699996471:	Printing D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_module_main_1.ts
+4485.231800019741:	Constructing emit plan
+4486.143200039864:	Resolving dependencies for D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_validator.ts
+4488.831600010395:	Resolving dependencies for D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_module_main_1.ts
+4489.939300000668:	Emitting output
+4490.162200033665:	Emitting D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_validator.lua
+4492.909600019455:	Emitting D:/Work/Tools/星火编辑器/Res/maps/BattleMount/script/trigger_module_main_1.lua
+4493.42610001564:	Emit finished!

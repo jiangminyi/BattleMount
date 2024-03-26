@@ -1,0 +1,4 @@
+{"messageText":"“游戏结束”表示值，但在此处用作类型。是否指“类型 游戏结束”?","code":2749,"start":1524,"length":4,"category":1}
+{"messageText":"无法重新声明块范围变量“游戏结束”。","code":2451,"start":1917,"length":4,"category":1}
+{"messageText":"无法重新声明块范围变量“游戏结束”。","code":2451,"start":5310,"length":4,"category":1}
+{"messageText":"类型“typeof 游戏结束”上不存在属性“add_event_common”。","code":2339,"start":6332,"length":16,"category":1}
