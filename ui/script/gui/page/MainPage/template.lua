@@ -9,12 +9,12 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
-local lib_control = require '@lib_control.component'
-local smallcard_store = require '@smallcard_store.component'
-local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
-local gameui = require '@gameui.component'
 local lib_game_options = require '@lib_game_options.component'
+local lib_control = require '@lib_control.component'
+local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
+local smallcard_store = require '@smallcard_store.component'
+local gameui = require '@gameui.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -47,6 +47,7 @@ return gui_pkg.page_template {
                 width = 64,
             },
             name = '设置按钮',
+            show = true,
         },1,
         smallcard_inventory.背包入口 {
             layout = {
@@ -97,6 +98,7 @@ return gui_pkg.page_template {
             },
             name = '玩家信息面板',
             round_corner_radius = 50,
+            show = true,
         },1,
         smallcard_store.商店_商店面板 {
             __EDIT_TIME = {
@@ -136,7 +138,7 @@ return gui_pkg.page_template {
             show = true,
             socket_name = 'socket_root',
         },1,
-        gameui.xf_1_minor_btn {
+        gameui.xf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -164,7 +166,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.sci_2_rect {
+        gameui.gf_2_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -215,6 +217,7 @@ return gui_pkg.page_template {
             },
             name = '商店文本',
             round_corner_radius = 30,
+            show = true,
             text = '商店',
         },4,
         ctrl_wrapper.panel {
@@ -231,6 +234,7 @@ return gui_pkg.page_template {
                 width = 42.810791015625,
             },
             name = '商店图片',
+            show = true,
         },4,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
@@ -248,6 +252,7 @@ return gui_pkg.page_template {
                 width = 50,
             },
             name = '生命面板',
+            show = true,
         },5,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
@@ -265,6 +270,7 @@ return gui_pkg.page_template {
                 width = 50,
             },
             name = '金钱面板',
+            show = true,
         },5,
         smallcard_store.商店_商品面板 {
             layout = {
@@ -279,6 +285,7 @@ return gui_pkg.page_template {
             },
             name = '商店_商品面板9',
             row_count = 3,
+            show = true,
         },6,
         smallcard_store.商店_关闭按钮 {
             layout = {
@@ -292,6 +299,7 @@ return gui_pkg.page_template {
                 width = 48,
             },
             name = '商店_关闭按钮6',
+            show = true,
         },6,
         smallcard_store.商店_目录 {
             cat_button_active_font_color = '#FFFFFF',
@@ -313,6 +321,7 @@ return gui_pkg.page_template {
                 width = 264,
             },
             name = '商店_目录4',
+            show = true,
         },6,
         smallcard_store.商店_玩家属性 {
             font_size = 30,
@@ -328,6 +337,7 @@ return gui_pkg.page_template {
                 row_self = 'start',
             },
             name = '商店_玩家属性5',
+            show = true,
         },6,
         smallcard_store.商店_详情界面 {
             combine_mode = false,
@@ -342,6 +352,7 @@ return gui_pkg.page_template {
                 width = 429,
             },
             name = '商店_详情界面7',
+            show = true,
         },6,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
@@ -358,6 +369,7 @@ return gui_pkg.page_template {
                 width = 3,
             },
             name = '分割线',
+            show = true,
         },6,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
@@ -374,8 +386,9 @@ return gui_pkg.page_template {
                 width = 3,
             },
             name = '分割线',
+            show = true,
         },6,
-        gameui.xf_1_minor_btn {
+        gameui.xf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -400,11 +413,12 @@ return gui_pkg.page_template {
                 width = 170,
             },
             name = '升级按钮',
+            show = true,
             text = '',
             text_color = '#000000',
             text_opacity = 1,
         },7,
-        gameui.xf_1_minor_btn {
+        gameui.xf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -429,6 +443,7 @@ return gui_pkg.page_template {
                 width = 170,
             },
             name = '拆除按钮',
+            show = true,
             text = '',
             text_color = '#000000',
             text_opacity = 1,
@@ -466,6 +481,7 @@ return gui_pkg.page_template {
                 width = 200,
             },
             name = '游戏失败_成功_文本',
+            show = true,
             text = '游戏失败',
         },9,
         ctrl_wrapper.label {
@@ -491,6 +507,7 @@ return gui_pkg.page_template {
                 width = 85.698120117188,
             },
             name = '生命',
+            show = true,
             text = '生命',
         },12,
         ctrl_wrapper.label {
@@ -521,6 +538,7 @@ return gui_pkg.page_template {
                 width = 80,
             },
             name = '金钱',
+            show = true,
             text = '金钱',
         },13,
         ctrl_wrapper.panel {
@@ -539,6 +557,7 @@ return gui_pkg.page_template {
                 width = 24,
             },
             name = '升级消耗资源图标',
+            show = true,
         },21,
         ctrl_wrapper.label {
             font = {
@@ -560,6 +579,7 @@ return gui_pkg.page_template {
                 width = 30,
             },
             name = '升级消耗资源数量',
+            show = true,
             text = '10',
         },21,
         ctrl_wrapper.label {
@@ -582,6 +602,7 @@ return gui_pkg.page_template {
                 width = 90,
             },
             name = '升级描述文本',
+            show = true,
             text = '升级',
         },21,
         ctrl_wrapper.panel {
@@ -600,6 +621,7 @@ return gui_pkg.page_template {
                 width = 24,
             },
             name = '拆除返还资源图标',
+            show = true,
         },22,
         ctrl_wrapper.label {
             font = {
@@ -621,6 +643,7 @@ return gui_pkg.page_template {
                 width = 30,
             },
             name = '拆除返还资源数量',
+            show = true,
             text = '10',
         },22,
         ctrl_wrapper.label {
@@ -643,9 +666,10 @@ return gui_pkg.page_template {
                 width = 90,
             },
             name = '拆除描述文本',
+            show = true,
             text = '拆除',
         },22,
-        gameui.sci_2_rect {
+        gameui.gf_2_rect {
             border = {
                 bottom = 30,
                 left = 128,
@@ -673,6 +697,7 @@ return gui_pkg.page_template {
                 width = 300,
             },
             name = '防御塔属性面板',
+            show = true,
             style = 'image/rect/面板-西方2.png',
         },23,
         ctrl_wrapper.label {
@@ -691,6 +716,7 @@ return gui_pkg.page_template {
                 width = 80,
             },
             name = '单位属性文本_攻击',
+            show = true,
             text = '攻击',
         },33,
         smallcard_unit_attr_panel.单位属性 {
@@ -717,6 +743,7 @@ return gui_pkg.page_template {
                 width = 204.54797363281,
             },
             name = '单位属性_攻击',
+            show = true,
             show_mode = 0,
         },33,
         ctrl_wrapper.label {
@@ -735,6 +762,7 @@ return gui_pkg.page_template {
                 width = 80,
             },
             name = '单位属性文本_等级',
+            show = true,
             text = '等级',
         },33,
         smallcard_unit_attr_panel.单位属性 {
@@ -761,6 +789,7 @@ return gui_pkg.page_template {
                 width = 204.54797363281,
             },
             name = '单位属性_LV',
+            show = true,
             show_mode = 0,
         },33,
         ctrl_wrapper.panel {
@@ -785,6 +814,7 @@ return gui_pkg.page_template {
                 width = 64,
             },
             name = '装备栏图标',
+            show = true,
         },33,
     }
 }

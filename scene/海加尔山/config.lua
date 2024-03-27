@@ -1,6 +1,6 @@
-camera_name = '$$p_8e93.camera_property.海加尔山镜头_1.root'
+camera_name = '$$p_8e93.camera_property.主镜头.root'
 scene_cameras = {
-	{link = '$$p_8e93.camera_property.海加尔山镜头_1.root'},
+	{link = '$$p_8e93.camera_property.主镜头.root'},
 }
 custom_collision = {
 	{name = 'UnwalkableCollisionRoot', bits = '458', color = '4294914816'},

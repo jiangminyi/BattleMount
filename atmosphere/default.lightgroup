@@ -37,8 +37,8 @@
 		<attribute name="Variables" />
 		<component type="Light">
 			<attribute name="Light Type" value="Directional" />
-			<attribute name="Color" value="0.0001 0.0001 0.0001 1" />
-			<attribute name="Weather Color" value="0.07308 0.02747 0.02747 1" />
+			<attribute name="Color" value="0.61931 0.04036 0.04036 1" />
+			<attribute name="Weather Color" value="0.65834 0.08641 0.08641 1" />
 			<attribute name="Weather Brightness Multiplier" value="2" />
 			<attribute name="Use Temperature" value="true" />
 			<attribute name="Range" value="0" />
