@@ -32,7 +32,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Variable:防御塔升级所需经验:1309933568",
+                                    "id":"Variable:电脑玩家:1717352258",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -40,7 +40,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Variable:电脑玩家:1717352258",
+                                    "id":"Variable:防御塔升级所需经验:1309933568",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -128,14 +128,6 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"CustomEvent:防御塔选中:1095630848",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
                                     "id":"CustomEvent:游戏结束:3996647424.0",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
@@ -145,6 +137,14 @@
                                 "ElementName":"Source",
                                 "targetUninit":{
                                     "id":"CustomEvent:血量变化:1266548736",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"CustomEvent:防御塔选中:1095630848",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -200,7 +200,23 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Trigger:拾取金币:953810944",
+                                    "id":"Trigger:怪物创建:3763208192.0",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:怪物死亡:3218472960.0",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:怪物到达终点:1417543680",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -240,23 +256,7 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Trigger:怪物创建:3763208192.0",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"Trigger:怪物死亡:3218472960.0",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
-                                }
-                            },
-                            {
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"Trigger:怪物到达终点:1417543680",
+                                    "id":"Trigger:拾取金币:953810944",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
@@ -300,6 +300,38 @@
                     },
                     "name":"自定义函数",
                     "rankOrder":5,
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
+                },
+                {
+                    "ElementName":"Folder",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "contents":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:根据:2234728866",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            }
+                        ]
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "name":"加德尔山",
+                    "rankOrder":6,
                     "staticWarningMsgs":{
                         "__TYPE":"Array",
                         "contents":{

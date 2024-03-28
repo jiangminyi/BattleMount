@@ -20,6 +20,7 @@
                     "displayName":"",
                     "flags":{
                     },
+                    "s_or_c":"server",
                     "staticWarningMsgs":{
                         "__TYPE":"Array",
                         "contents":{
@@ -82,6 +83,7 @@
                     "displayName":"",
                     "flags":{
                     },
+                    "s_or_c":"server",
                     "staticWarningMsgs":{
                         "__TYPE":"Array",
                         "contents":{
@@ -326,6 +328,7 @@
                                 "s_or_c":"server"
                             }
                         },
+                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -376,6 +379,7 @@
                                 "s_or_c":"server"
                             }
                         },
+                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -931,6 +935,7 @@
                         "displayName":"",
                         "flags":{
                         },
+                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
