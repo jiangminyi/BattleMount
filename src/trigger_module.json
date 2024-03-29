@@ -320,7 +320,23 @@
                             {
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"FunctionDefine:根据:2234728866",
+                                    "id":"Trigger:按a:1930328732",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:根据刷怪数编表创造怪物:1736498993",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:根据关卡配置表创造怪物:730140868",
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }

@@ -19,11 +19,17 @@ anim/human/sword_anim/DaJianZhanShi/skill_04.ani
 born
 characters/Monster/SK_Spider_Burrow_S/model.prefab
 characters/general/sk_basic2/model.prefab
+characters/monster/sk_blackdragon/model.prefab
 characters/monster/sk_ghost/model.prefab
+characters/monster/sk_hound/model.prefab
 characters/monster/sk_spider_burrow/model.prefab
+characters/monster/sk_viciousdog/model.prefab
 characters/monster/sk_vulture_bird/model.prefab
 characters/monster/sk_werewolf/model.prefab
 characters/monster/sk_wild_boar/model.prefab
+characters/monster_3/sk_chi/model.prefab
+characters/monster_3/sk_kulouquan_skin/model.prefab
+characters/monster_3/sk_ligui/model.prefab
 characters/tramcar_td/jinbi/model.prefab
 deco/dungeon/sk_garden_stonetower_a/model.prefab
 deco/dungeon/sk_garden_stonetower_a03/model.prefab
