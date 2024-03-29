@@ -271,7 +271,6 @@
                                                                                                     },
                                                                                                     "displayName":"",
                                                                                                     "flags":{
-                                                                                                        "enableDisplayName":true
                                                                                                     },
                                                                                                     "staticWarningMsgs":{
                                                                                                         "__TYPE":"Array",
@@ -297,7 +296,7 @@
                                                                                                         },
                                                                                                         "tips":""
                                                                                                     },
-                                                                                                    "value":2
+                                                                                                    "value":7
                                                                                                 }
                                                                                             ]
                                                                                         },
@@ -738,7 +737,7 @@
                                                                                             },
                                                                                             "tips":""
                                                                                         },
-                                                                                        "value":true
+                                                                                        "value":false
                                                                                     }
                                                                                 ]
                                                                             },

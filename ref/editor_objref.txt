@@ -227,10 +227,12 @@ anim/human/sword_anim/DaJianZhanShi/skill_03.ani
 anim/human/sword_anim/DaJianZhanShi/skill_04.ani
 anim/human/sword_anim/dajianzhanshi/skill_01.ani
 anim/human/sword_anim/dajianzhanshi/skill_02.ani
+anim/human/sword_anim/twohand_02/attack_03.ani
 anim/human/sword_anim/twohand_04/attack_04.ani
 anim/west_fantasy/base_female_anim/mage/skull_05/skill_02.ani
 anim/west_fantasy/devil_male_anim/assassin/fist_02/skill_01.ani
 anim/west_fantasy/strong_male_anim/warrior/chain_01/skill_01.ani
+attack
 attack_01
 attack_02
 born
@@ -495,6 +497,7 @@ effect/effect_new/effect_hit/eff_hit_01/particle.effect
 effect/effect_new/effect_hit/eff_hit_02/particle.effect
 effect/effect_new/effect_hit/eff_hit_10/particle.effect
 effect/effect_new/effect_hit/eff_hit_15/particle.effect
+effect/effect_new/effect_hit/eff_hit_18/particle.effect
 effect/effect_new/effect_hit/eff_hit_26/particle.effect
 effect/effect_new/effect_hit/eff_hit_28/particle.effect
 effect/effect_new/effect_hit/eff_hit_29/particle.effect
@@ -563,6 +566,7 @@ effect/effect_new1/effect_hit/eff_hit_08/particle.effect
 effect/effect_new1/effect_hit/eff_hit_09/particle.effect
 effect/effect_new1/effect_knief/eff_daoguang06/particle.effect
 effect/effect_new1/effect_knief/eff_knief_002/particle.effect
+effect/effect_new1/effect_knief/eff_zhuaji/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa10/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_03/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_04/particle.effect
@@ -773,6 +777,7 @@ sound/a2_sfx/fight/magic/sfx_magic_cast_imprisoned_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_blast.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_shoot.ogg
 sound/a2_sfx/fight/magic/sfx_magic_flame_large_air_blast.ogg
+sound/a2_sfx/fight/statuseffect/sfx_body_fat_hvy_atk_01.ogg
 sound/a2_sfx/fight/statuseffect/sfx_meteorite_fire_flight_fast_lp.ogg
 sound/a2_sfx/fight/statuseffect/sfx_whirl_hvy_wind_lp.ogg
 sound/a2_sfx/ui/general/UI_DrawCard_OneTimes_Box_Gold_Open.ogg
@@ -837,6 +842,7 @@ sound/a5_epicsfx/weapons/Weapons_Melee_73.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_74
 sound/a5_epicsfx/weapons/Weapons_Melee_76.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_8.ogg
+sound/a5_epicsfx/weapons/Weapons_Melee_80.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_87
 sound/a5_epicsfx/weapons/Weapons_Melee_87.ogg
 sound/battle_grounds_sound/level_up.ogg
