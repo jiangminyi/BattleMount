@@ -11,9 +11,11 @@ Attack_01
 Attack_02
 attack_01
 characters/heartbeat/quzg/model.prefab
+characters1/nvwu_nv3b/model.prefab
 characters1/youguinvyao_85gb/model.prefab
 deco/engine/characters_light02/model.prefab
 effect/effect_new/effect_buff/eff_buff_03_copy/particle.effect
+effect/effect_new/effect_buff/eff_buff_27/particle.effect
 effect/effect_new/effect_debuff/eff_debuff_04/particle.effect
 effect/effect_new/effect_dici/eff_dici_03/particle.effect
 effect/effect_new/effect_hit/eff_hit_32/particle.effect
@@ -26,4 +28,7 @@ effect/effect_new1/effect_hit/eff_hit_09/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa10/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_08/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_09/particle.effect
+effect/samplespells/stormbolt/stormbolt_target/particle.effect
+maps/p_8e93/anim/nvwu_nv3b/anim/west_fantasy/base_female_anim/mage/staff_03/attack_01.ani
 maps/p_8e93/anim/youguinvyao_85gb/anim/human/magic_anim/MoFaShi/skill_02.ani
+sound/a2_sfx/fight/magic/sfx_magic_iceball_large_flight_01.ogg

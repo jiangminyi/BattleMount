@@ -9,7 +9,7 @@ return pkg.page_pkg(lib_env, {
         [4] = 'MainPage',
     },
     [pkg.kGUID] = {
-        ctrl = 54,
+        ctrl = 71,
         page = 3,
     },
 })

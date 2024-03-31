@@ -1,2 +1,26 @@
-{
-}
+[
+    {
+        "name":"lib_control"
+    },
+    {
+        "name":"smallcard_inventory"
+    },
+    {
+        "name":"smallcard_store"
+    },
+    {
+        "name":"smallcard_unit_attr_panel"
+    },
+    {
+        "name":"smallcard_get_items"
+    },
+    {
+        "name":"lib_gamechat"
+    },
+    {
+        "name":"smallcard_quest"
+    },
+    {
+        "name":"smallcard_task_new"
+    }
+]

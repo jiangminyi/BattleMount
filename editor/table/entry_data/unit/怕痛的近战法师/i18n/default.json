@@ -1,0 +1,8 @@
+{
+    "[EntryModule][$$p_8e93.unit.怕痛的近战法师].DisplayName":"盾之勇者",
+    "[EntryNode][$$p_8e93.unit.怕痛的近战法师.ItemContainer].Data.Game.Name":"背包栏",
+    "[EntryNode][$$p_8e93.unit.怕痛的近战法师.ItemContainer_1].Data.Game.Name":"装备栏",
+    "[EntryNode][$$p_8e93.unit.怕痛的近战法师.Spell].Data.Game.Name":"法系普攻",
+    "[EntryNode][$$p_8e93.unit.怕痛的近战法师.Unit].Data.Game.Name":"投射物单位模版",
+    "[EntryNode][$$p_8e93.unit.怕痛的近战法师.root].Data.Game.Name":"盾之勇者"
+}

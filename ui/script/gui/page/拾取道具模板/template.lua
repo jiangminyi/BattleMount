@@ -15,6 +15,8 @@ return gui_pkg.page_template {
     flatten_template = {
         ctrl_wrapper.panel {
             __EDIT_TIME = {
+                enable_layout_grid = false,
+                layout_grid_size = 10,
                 lock = true,
             },
             color = 'rgba(0, 0, 0, 0.0000)',

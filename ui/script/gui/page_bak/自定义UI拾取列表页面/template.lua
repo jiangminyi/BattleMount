@@ -27,7 +27,7 @@ return gui_pkg.page_template {
                 },
             },
             name = '自定义UI拾取列表页面',
-            show = false,
+            show = true,
         },0,
         ctrl_wrapper.panel {
             Array = {

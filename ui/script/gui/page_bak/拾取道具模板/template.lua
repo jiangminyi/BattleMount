@@ -15,6 +15,8 @@ return gui_pkg.page_template {
     flatten_template = {
         ctrl_wrapper.panel {
             __EDIT_TIME = {
+                enable_layout_grid = false,
+                layout_grid_size = 10,
                 lock = true,
             },
             color = 'rgba(0, 0, 0, 0.0000)',
@@ -33,6 +35,7 @@ return gui_pkg.page_template {
                 width = 408.0,
             },
             name = '拾取道具模板',
+            show = true,
         },0,
         ctrl_wrapper.button {
             color = 'rgba(0, 0, 0, 0.0000)',
@@ -49,6 +52,7 @@ return gui_pkg.page_template {
                 width = 408,
             },
             name = '道具模板外框',
+            show = true,
         },1,
         ctrl_wrapper.button {
             color = 'rgba(255,255,255,255)',
@@ -82,6 +86,7 @@ return gui_pkg.page_template {
                 width = 80,
             },
             name = '道具图标',
+            show = true,
         },2,
         ctrl_wrapper.label {
             font = {
@@ -101,6 +106,7 @@ return gui_pkg.page_template {
                 width = 300,
             },
             name = '物品文字',
+            show = true,
             text = '古木游龙太上老君拐杖',
         },2,
         ctrl_wrapper.panel {

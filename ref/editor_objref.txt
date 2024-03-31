@@ -230,6 +230,7 @@ anim/human/sword_anim/dajianzhanshi/skill_02.ani
 anim/human/sword_anim/twohand_02/attack_03.ani
 anim/human/sword_anim/twohand_04/attack_04.ani
 anim/west_fantasy/base_female_anim/mage/skull_05/skill_02.ani
+anim/west_fantasy/base_female_anim/mage/staff_03/attack_01.ani
 anim/west_fantasy/devil_male_anim/assassin/fist_02/skill_01.ani
 anim/west_fantasy/strong_male_anim/warrior/chain_01/skill_01.ani
 attack
@@ -268,12 +269,14 @@ characters1/aonengfashi_c2cb/model.prefab
 characters1/bingshuangemo_e2ya/model.prefab
 characters1/cike_nlfb/model.prefab
 characters1/emozhanshi_m8ua/model.prefab
+characters1/nvwu_nv3b/model.prefab
 characters1/samanjisi_ogxa/model.prefab
 characters1/senlinjiangshi_bcab/model.prefab
 characters1/tufu_xpdb/model.prefab
 characters1/youguinvyao_85gb/model.prefab
 deco/NDG/SM_Book01_A/model.prefab
 deco/chinoiserie/sm_dh_diaolou_a/model.prefab
+deco/dungeon/prefab/sm_buff_altar/model.prefab
 deco/dungeon/sk_garden_stonetower_a/model.prefab
 deco/dungeon/sk_garden_stonetower_a03/model.prefab
 deco/dungeon/sk_garden_stonetower_a04/model.prefab
@@ -468,6 +471,7 @@ effect/effect_new/effect_buff/eff_buff_10/particle.effect
 effect/effect_new/effect_buff/eff_buff_14/particle.effect
 effect/effect_new/effect_buff/eff_buff_16/particle.effect
 effect/effect_new/effect_buff/eff_buff_17/particle.effect
+effect/effect_new/effect_buff/eff_buff_27/particle.effect
 effect/effect_new/effect_debuff/eff_debuff_04/particle.effect
 effect/effect_new/effect_debuff/eff_debuff_09/particle.effect
 effect/effect_new/effect_debuff/eff_debuff_fire_01/particle.effect
@@ -650,6 +654,7 @@ effect/samplespells/snare/snare_attack1/particle.effect
 effect/samplespells/stasistrap/stasistrap_aoe/particle.effect
 effect/samplespells/stasistrap/stasistrap_target/particle.effect
 effect/samplespells/stormbolt/stormbolt_attachments/particle.effect
+effect/samplespells/stormbolt/stormbolt_target/particle.effect
 effect/samplespells/taunt/taunt_caster/particle.effect
 effect/samplespells/taunt/taunt_target/particle.effect
 effect/samplespells/unholy freez/unholy freez/particle.effect
@@ -777,6 +782,7 @@ sound/a2_sfx/fight/magic/sfx_magic_cast_imprisoned_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_blast.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_shoot.ogg
 sound/a2_sfx/fight/magic/sfx_magic_flame_large_air_blast.ogg
+sound/a2_sfx/fight/magic/sfx_magic_iceball_large_flight_01.ogg
 sound/a2_sfx/fight/statuseffect/sfx_body_fat_hvy_atk_01.ogg
 sound/a2_sfx/fight/statuseffect/sfx_meteorite_fire_flight_fast_lp.ogg
 sound/a2_sfx/fight/statuseffect/sfx_whirl_hvy_wind_lp.ogg
