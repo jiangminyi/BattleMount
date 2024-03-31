@@ -488,6 +488,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -538,6 +539,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{

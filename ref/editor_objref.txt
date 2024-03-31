@@ -143,6 +143,8 @@
 @defaultui/image/control/锁定技能框.png
 @defaultui/image/control/默认技能框3.png
 @defaultui/image/panel/底框_快捷键.png
+@p_8e93/image/icon_guanqia_19.png
+@p_8e93/image/icons/顶部信息栏.png
 @single_simple_ts_template_5_vhib/image/Weiyan_R.png
 @smallcard_inventory/image/test_icon.png
 @smallcard_inventory/image/品质框=橙色.png
@@ -712,8 +714,6 @@ image/btn/xf_3_major.png
 image/btn/xf_3_major_active.png
 image/btn/xf_3_minor.png
 image/btn/xf_3_minor_active.png
-image/choose.png
-image/choose_border.png
 image/ic_store.png
 image/icon_guanqia_18.png
 image/icon_guanqia_19.png

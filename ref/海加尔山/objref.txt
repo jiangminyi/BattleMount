@@ -13,6 +13,7 @@ attack_01
 characters/heartbeat/quzg/model.prefab
 characters1/nvwu_nv3b/model.prefab
 characters1/youguinvyao_85gb/model.prefab
+deco/dungeon/prefab/sm_buff_altar/model.prefab
 deco/engine/characters_light02/model.prefab
 effect/effect_new/effect_buff/eff_buff_03_copy/particle.effect
 effect/effect_new/effect_buff/eff_buff_27/particle.effect

@@ -9,6 +9,8 @@
 @default_units_ts/image/icons/肉钩 (3).png
 @default_units_ts/image/icons/蛇棒攻击 (1).png
 @default_units_ts/image/icons/血焰之剑 (1).png
+@p_8e93/image/icon_guanqia_19.png
+@p_8e93/image/icons/顶部信息栏.png
 Attack
 Spellcast
 anim/human/barehanded_anim/hand_05/skill_01.ani
@@ -32,6 +34,7 @@ characters/monster_3/sk_chi/model.prefab
 characters/monster_3/sk_kulouquan_skin/model.prefab
 characters/monster_3/sk_ligui/model.prefab
 characters/tramcar_td/jinbi/model.prefab
+deco/NDG/SM_Book01_A/model.prefab
 deco/dungeon/sk_garden_stonetower_a/model.prefab
 deco/dungeon/sk_garden_stonetower_a03/model.prefab
 deco/dungeon/sk_garden_stonetower_a04/model.prefab
@@ -116,6 +119,7 @@ effect/samplespells/avatar/avatar_caster/particle.effect
 effect/samplespells/devotion/devotionaura/particle.effect
 effect/samplespells/fan_of_knives/fanofknives_hit/particle.effect
 effect/samplespells/fan_of_knives/fanofknives_missile/particle.effect
+effect/samplespells/healing/healingaura_heal/particle.effect
 effect/samplespells/hook/hook_missile/particle.effect
 effect/samplespells/snake ward/snake ward_attack/particle.effect
 effect/samplespells/snake ward/snake ward_hit/particle.effect

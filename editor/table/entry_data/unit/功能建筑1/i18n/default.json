@@ -1,3 +1,4 @@
 {
-    "[EntryNode][$$p_8e93.unit.功能建筑1.root].Data.Game.Name":"功能建筑1"
+    "[EntryModule][$$p_8e93.unit.功能建筑1].DisplayName":"点击祭坛买东西",
+    "[EntryNode][$$p_8e93.unit.功能建筑1.root].Data.Game.Name":"点击祭坛买东西"
 }

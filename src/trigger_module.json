@@ -340,6 +340,14 @@
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:选中祭坛打开商店:4186307273",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
                             }
                         ]
                     },

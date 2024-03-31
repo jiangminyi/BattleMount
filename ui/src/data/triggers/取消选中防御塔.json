@@ -209,6 +209,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -259,6 +260,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -309,6 +311,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -359,6 +362,7 @@
                                 "s_or_c":"client"
                             }
                         },
+                        "s_or_c":"client",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -515,8 +519,33 @@
     "s_or_c":"client",
     "scenes":{
         "__TYPE":"Array",
-        "contents":{
-        }
+        "contents":[
+            {
+                "ElementName":"SourceValue",
+                "breakPointInfo":{
+                    "disabled":false,
+                    "hasBreakPoint":false,
+                    "type":2
+                },
+                "displayName":"",
+                "flags":{
+                },
+                "staticWarningMsgs":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "tips":"",
+                "valueSource":{
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"PresetPropertyId:(Preset:Scene, Linkspace:default, PresetKey:default)",
+                        "packageName":"__common__",
+                        "s_or_c":"common"
+                    }
+                }
+            }
+        ]
     },
     "staticWarningMsgs":{
         "__TYPE":"Array",

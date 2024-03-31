@@ -9,12 +9,12 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
+local smallcard_store = require '@smallcard_store.component'
 local lib_control = require '@lib_control.component'
-local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 local lib_game_options = require '@lib_game_options.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
 local gameui = require '@gameui.component'
-local smallcard_store = require '@smallcard_store.component'
+local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -33,6 +33,39 @@ return gui_pkg.page_template {
             name = 'MainPage',
             show = true,
         },0,
+        smallcard_unit_attr_panel.单位属性面板 {
+            bind_unit = 0,
+            layout = {
+                col_self = 'start',
+                grow_height = 0,
+                grow_width = 0,
+                height = 72,
+                ratio = {},
+                relative = {
+                    [1] = 0.0,
+                    [2] = 0.0,
+                },
+                row_self = 'center',
+                width = 714,
+            },
+            name = '单位属性面板3',
+            show = true,
+        },1,
+        smallcard_store.商店_商店面板 {
+            layout = {
+                col_self = 'center',
+                height = 900,
+                relative = {
+                    [1] = 0,
+                    [2] = 0,
+                },
+                row_self = 'center',
+                width = 1959,
+            },
+            name = '商店_商店面板3',
+            parameter = '',
+            show = false,
+        },1,
         lib_game_options.设置按钮 {
             layout = {
                 col_self = 'start',
@@ -138,7 +171,7 @@ return gui_pkg.page_template {
             show = true,
             socket_name = 'socket_root',
         },1,
-        gameui.gf_3_major_btn {
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -161,12 +194,12 @@ return gui_pkg.page_template {
                 width = 250,
             },
             name = '开始游戏按钮',
-            show = true,
+            show = false,
             text = '开始游戏',
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.sci_1_rect {
+        gameui.normal_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -197,6 +230,291 @@ return gui_pkg.page_template {
             show = false,
             style = 'image/rect/面板-科技1.png',
         },1,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '护甲',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon (1).png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 222,
+                    [2] = 0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },2,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '攻击',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon.png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 60,
+                    [2] = 0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },2,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '移动速度',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon (2).png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 384,
+                    [2] = 0.0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },2,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '生命上限',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性=魔法.png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 546,
+                    [2] = 0.0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },2,
+        smallcard_store.商店_商品面板 {
+            layout = {
+                col_self = 'end',
+                height = 852,
+                relative = {
+                    [1] = 312,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 1074,
+            },
+            name = '商店_商品面板9',
+            row_count = 3,
+            show = true,
+        },3,
+        smallcard_store.商店_关闭按钮 {
+            layout = {
+                col_self = 'start',
+                height = 90,
+                relative = {
+                    [1] = 99,
+                    [2] = -0.00433349609375,
+                },
+                row_self = 'end',
+                width = 90,
+            },
+            name = '商店_关闭按钮6',
+            show = true,
+        },3,
+        smallcard_store.商店_目录 {
+            cat_button_active_font_color = '#FFFFFF',
+            cat_button_active_image = '@smallcard_store/image/choose.png',
+            cat_button_border_active_image = '@smallcard_store/image/choose_border.png',
+            cat_button_height = 132,
+            cat_button_unactive_font_color = 'rgba(255,255,255,0.6)',
+            font_size = 36,
+            layout = {
+                col_content = 'start',
+                col_self = 'end',
+                direction = 'col',
+                height = 777,
+                relative = {
+                    [1] = 0,
+                    [2] = 0,
+                },
+                row_self = 'start',
+                width = 264,
+            },
+            name = '商店_目录4',
+            show = true,
+        },3,
+        smallcard_store.商店_玩家属性 {
+            font_size = 30,
+            layout = {
+                col_self = 'start',
+                direction = 'row',
+                height = 42,
+                relative = {
+                    [1] = 48,
+                    [2] = 48,
+                },
+                row_content = 'start',
+                row_self = 'start',
+            },
+            name = '商店_玩家属性5',
+            show = true,
+        },3,
+        smallcard_store.商店_详情界面 {
+            combine_mode = false,
+            layout = {
+                col_self = 'center',
+                height = 900,
+                relative = {
+                    [1] = -48,
+                    [2] = 0,
+                },
+                row_self = 'end',
+                width = 429,
+            },
+            name = '商店_详情界面7',
+            show = true,
+        },3,
+        ctrl_wrapper.panel {
+            color = 'rgba(255, 255, 255, 0.2000)',
+            layout = {
+                col_self = 'start',
+                height = 1,
+                position = {},
+                relative = {
+                    [1] = 13,
+                    [2] = 109,
+                },
+                row_self = 'start',
+                width = 242,
+            },
+            name = '分割线',
+            show = true,
+        },3,
+        ctrl_wrapper.panel {
+            color = 'rgba(255, 255, 255, 0.2000)',
+            layout = {
+                col_self = 'center',
+                grow_height = 0,
+                grow_width = 0,
+                height = 900,
+                relative = {
+                    [1] = -535,
+                    [2] = 0.0,
+                },
+                row_self = 'end',
+                width = 3,
+            },
+            name = '分割线',
+            show = true,
+        },3,
+        ctrl_wrapper.panel {
+            color = 'rgba(255, 255, 255, 0.2000)',
+            layout = {
+                col_self = 'center',
+                grow_height = 0,
+                grow_width = 0,
+                height = 900,
+                relative = {
+                    [1] = 264,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 3,
+            },
+            name = '分割线',
+            show = true,
+        },3,
+        smallcard_store.商店_合成面板 {
+            layout = {
+                col_content = 'start',
+                col_self = 'end',
+                direction = 'col',
+                height = 780,
+                relative = {
+                    [1] = -48,
+                    [2] = 0,
+                },
+                row_self = 'end',
+                width = 429,
+            },
+            name = '商店_合成面板d',
+            show = true,
+        },3,
+        smallcard_store.商店_详情界面 {
+            combine_mode = true,
+            layout = {
+                col_self = 'end',
+                height = 780,
+                relative = {
+                    [1] = -48.0,
+                    [2] = 0,
+                },
+                row_self = 'end',
+                width = 429,
+            },
+            name = '商店_详情界面c',
+            show = false,
+        },3,
+        smallcard_store.商店_合成页签 {
+            check_image = '@smallcard_store/image/tab_check.png',
+            font_size = 36,
+            layout = {
+                col_self = 'start',
+                direction = 'row',
+                height = 72,
+                relative = {
+                    [1] = -51,
+                    [2] = 48,
+                },
+                row_self = 'end',
+                width = 420,
+            },
+            name = '商店_合成页签b',
+            show = true,
+            uncheck_image = '@smallcard_store/image/tab_default.png',
+        },3,
         ctrl_wrapper.label {
             color = 'rgba(0, 0, 0, 0.0000)',
             font = {
@@ -219,7 +537,7 @@ return gui_pkg.page_template {
             round_corner_radius = 30,
             show = true,
             text = '商店',
-        },4,
+        },6,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/ic_store.png',
@@ -235,7 +553,7 @@ return gui_pkg.page_template {
             },
             name = '商店图片',
             show = true,
-        },4,
+        },6,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_18.png',
@@ -253,7 +571,7 @@ return gui_pkg.page_template {
             },
             name = '生命面板',
             show = true,
-        },5,
+        },7,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_19.png',
@@ -271,7 +589,7 @@ return gui_pkg.page_template {
             },
             name = '金钱面板',
             show = true,
-        },5,
+        },7,
         smallcard_store.商店_商品面板 {
             layout = {
                 col_self = 'end',
@@ -286,7 +604,7 @@ return gui_pkg.page_template {
             name = '商店_商品面板9',
             row_count = 3,
             show = true,
-        },6,
+        },8,
         smallcard_store.商店_关闭按钮 {
             layout = {
                 col_self = 'start',
@@ -300,7 +618,7 @@ return gui_pkg.page_template {
             },
             name = '商店_关闭按钮6',
             show = true,
-        },6,
+        },8,
         smallcard_store.商店_目录 {
             cat_button_active_font_color = '#FFFFFF',
             cat_button_active_image = 'image/choose.png',
@@ -322,7 +640,7 @@ return gui_pkg.page_template {
             },
             name = '商店_目录4',
             show = true,
-        },6,
+        },8,
         smallcard_store.商店_玩家属性 {
             font_size = 30,
             layout = {
@@ -338,7 +656,7 @@ return gui_pkg.page_template {
             },
             name = '商店_玩家属性5',
             show = true,
-        },6,
+        },8,
         smallcard_store.商店_详情界面 {
             combine_mode = false,
             layout = {
@@ -353,7 +671,7 @@ return gui_pkg.page_template {
             },
             name = '商店_详情界面7',
             show = true,
-        },6,
+        },8,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
             layout = {
@@ -370,7 +688,7 @@ return gui_pkg.page_template {
             },
             name = '分割线',
             show = true,
-        },6,
+        },8,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
             layout = {
@@ -387,8 +705,8 @@ return gui_pkg.page_template {
             },
             name = '分割线',
             show = true,
-        },6,
-        gameui.gf_3_major_btn {
+        },8,
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -417,8 +735,8 @@ return gui_pkg.page_template {
             text = '',
             text_color = '#000000',
             text_opacity = 1,
-        },7,
-        gameui.gf_3_major_btn {
+        },9,
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -447,7 +765,7 @@ return gui_pkg.page_template {
             text = '',
             text_color = '#000000',
             text_opacity = 1,
-        },7,
+        },9,
         smallcard_unit_attr_panel.单位属性面板 {
             bind_unit = 0,
             color = 'rgba(0, 0, 0, 0.0000)',
@@ -463,7 +781,7 @@ return gui_pkg.page_template {
             },
             name = '单位属性面板',
             show = true,
-        },7,
+        },9,
         ctrl_wrapper.label {
             font = {
                 size = 36,
@@ -483,7 +801,7 @@ return gui_pkg.page_template {
             name = '游戏失败_成功_文本',
             show = true,
             text = '游戏失败',
-        },9,
+        },11,
         ctrl_wrapper.label {
             font = {
                 align = 'left',
@@ -509,7 +827,7 @@ return gui_pkg.page_template {
             name = '生命',
             show = true,
             text = '生命',
-        },12,
+        },29,
         ctrl_wrapper.label {
             font = {
                 align = 'left',
@@ -540,7 +858,7 @@ return gui_pkg.page_template {
             name = '金钱',
             show = true,
             text = on_player_prop('金钱', '%d'),
-        },13,
+        },30,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_19.png',
@@ -558,7 +876,7 @@ return gui_pkg.page_template {
             },
             name = '升级消耗资源图标',
             show = true,
-        },21,
+        },38,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -581,7 +899,7 @@ return gui_pkg.page_template {
             name = '升级消耗资源数量',
             show = true,
             text = '10',
-        },21,
+        },38,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -604,7 +922,7 @@ return gui_pkg.page_template {
             name = '升级描述文本',
             show = true,
             text = '升级',
-        },21,
+        },38,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_19.png',
@@ -622,7 +940,7 @@ return gui_pkg.page_template {
             },
             name = '拆除返还资源图标',
             show = true,
-        },22,
+        },39,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -645,7 +963,7 @@ return gui_pkg.page_template {
             name = '拆除返还资源数量',
             show = true,
             text = '10',
-        },22,
+        },39,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -668,8 +986,8 @@ return gui_pkg.page_template {
             name = '拆除描述文本',
             show = true,
             text = '拆除',
-        },22,
-        gameui.sci_1_rect {
+        },39,
+        gameui.normal_rect {
             border = {
                 bottom = 30,
                 left = 128,
@@ -699,7 +1017,7 @@ return gui_pkg.page_template {
             name = '防御塔属性面板',
             show = true,
             style = 'image/rect/面板-西方2.png',
-        },23,
+        },40,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -718,7 +1036,7 @@ return gui_pkg.page_template {
             name = '单位属性文本_攻击',
             show = true,
             text = '攻击',
-        },33,
+        },50,
         smallcard_unit_attr_panel.单位属性 {
             accuracy_display = 1,
             attr_multiply = 1,
@@ -745,7 +1063,7 @@ return gui_pkg.page_template {
             name = '单位属性_攻击',
             show = true,
             show_mode = 0,
-        },33,
+        },50,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -764,7 +1082,7 @@ return gui_pkg.page_template {
             name = '单位属性文本_等级',
             show = true,
             text = '等级',
-        },33,
+        },50,
         smallcard_unit_attr_panel.单位属性 {
             accuracy_display = 1,
             attr_multiply = 1,
@@ -791,7 +1109,7 @@ return gui_pkg.page_template {
             name = '单位属性_LV',
             show = true,
             show_mode = 0,
-        },33,
+        },50,
         ctrl_wrapper.panel {
             border = {
                 bottom = 0,
@@ -815,6 +1133,6 @@ return gui_pkg.page_template {
             },
             name = '装备栏图标',
             show = true,
-        },33,
+        },50,
     }
 }

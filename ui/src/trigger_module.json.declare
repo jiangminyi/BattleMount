@@ -6507,6 +6507,30 @@
                         }
                     },
                     "tips":""
+                },
+                {
+                    "ElementName":"Folder",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "contents":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "name":"加德",
+                    "rankOrder":4,
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
                 }
             ]
         },
