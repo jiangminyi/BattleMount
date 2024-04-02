@@ -503,8 +503,8 @@ effect/effect_new/effect_hit/eff_hit_01/particle.effect
 effect/effect_new/effect_hit/eff_hit_02/particle.effect
 effect/effect_new/effect_hit/eff_hit_10/particle.effect
 effect/effect_new/effect_hit/eff_hit_15/particle.effect
-effect/effect_new/effect_hit/eff_hit_18/particle.effect
 effect/effect_new/effect_hit/eff_hit_26/particle.effect
+effect/effect_new/effect_hit/eff_hit_27/particle.effect
 effect/effect_new/effect_hit/eff_hit_28/particle.effect
 effect/effect_new/effect_hit/eff_hit_29/particle.effect
 effect/effect_new/effect_hit/eff_hit_32/particle.effect
@@ -519,6 +519,7 @@ effect/effect_new/effect_knief/eff_knief_004/particle.effect
 effect/effect_new/effect_knief/eff_knief_005/particle.effect
 effect/effect_new/effect_mofa/eff_aoe/eff_aoe_hit_012/particle.effect
 effect/effect_new/effect_mofa/eff_aoe/eff_aoe_hit_07/particle.effect
+effect/effect_new/effect_mofa/eff_aoe/eff_aoe_hit_09/particle.effect
 effect/effect_new/effect_mofa/eff_aoe/eff_aoe_loop_04/particle.effect
 effect/effect_new/effect_mofa/eff_iceball_02/particle.effect
 effect/effect_new/effect_mofa/eff_mofa_06/particle.effect
@@ -572,7 +573,6 @@ effect/effect_new1/effect_hit/eff_hit_08/particle.effect
 effect/effect_new1/effect_hit/eff_hit_09/particle.effect
 effect/effect_new1/effect_knief/eff_daoguang06/particle.effect
 effect/effect_new1/effect_knief/eff_knief_002/particle.effect
-effect/effect_new1/effect_knief/eff_zhuaji/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa10/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_03/particle.effect
 effect/effect_new1/effect_mofa/eff_mofa_04/particle.effect
@@ -778,12 +778,14 @@ sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_05.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_06.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_07.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_08.ogg
+sound/a2_sfx/fight/impact/sfx_imp_punch_dash.ogg
+sound/a2_sfx/fight/impact/sfx_imp_punch_dash_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_cast_imprisoned_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_blast.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_shoot.ogg
 sound/a2_sfx/fight/magic/sfx_magic_flame_large_air_blast.ogg
 sound/a2_sfx/fight/magic/sfx_magic_iceball_large_flight_01.ogg
-sound/a2_sfx/fight/statuseffect/sfx_body_fat_hvy_atk_01.ogg
+sound/a2_sfx/fight/magic/sfx_magic_meteorite_stone_large_hitground.ogg
 sound/a2_sfx/fight/statuseffect/sfx_meteorite_fire_flight_fast_lp.ogg
 sound/a2_sfx/fight/statuseffect/sfx_whirl_hvy_wind_lp.ogg
 sound/a2_sfx/ui/general/UI_DrawCard_OneTimes_Box_Gold_Open.ogg
@@ -848,7 +850,6 @@ sound/a5_epicsfx/weapons/Weapons_Melee_73.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_74
 sound/a5_epicsfx/weapons/Weapons_Melee_76.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_8.ogg
-sound/a5_epicsfx/weapons/Weapons_Melee_80.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_87
 sound/a5_epicsfx/weapons/Weapons_Melee_87.ogg
 sound/battle_grounds_sound/level_up.ogg

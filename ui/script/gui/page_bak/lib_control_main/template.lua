@@ -26,7 +26,6 @@ return gui_pkg.page_template {
                 },
             },
             name = 'lib_control_main',
-            show = true,
             z_index = -2,
         },0,
         lib_control.中止施法区域 {
@@ -43,7 +42,6 @@ return gui_pkg.page_template {
                 width = 150,
             },
             name = '中止施法区域',
-            show = true,
         },1,
         lib_control.施法进度条 {
             break_delay = 200,
@@ -62,7 +60,6 @@ return gui_pkg.page_template {
             name = '施法进度条',
             progress_bar_image = '@defaultui/image/control/Bar_ingame_shifatiao.png',
             progress_bg_image = '@defaultui/image/control/Bar_ingame_shifatiaodi.png',
-            show = true,
         },1,
         lib_control.技能摇杆组 {
             active_percent = 0.15,
@@ -96,7 +93,6 @@ return gui_pkg.page_template {
             outer_ratio = 0.971,
             press_region_type = 1,
             shortcut_key_bg = '@defaultui/image/panel/底框_快捷键.png',
-            show = true,
             skill_attack_normal = '@defaultui/image/control/默认技能框3.png',
             skill_charge_cool = '@defaultui/image/control/充能技能冷却条.png',
             skill_click = '@defaultui/image/control/点击技能框.png',
@@ -126,7 +122,6 @@ return gui_pkg.page_template {
                 row_self = 'start',
             },
             name = '移动摇杆',
-            show = true,
             slider_bg_image = '@defaultui/image/joystick/Bg_ingame_yaogan.png',
             slider_image = '@defaultui/image/joystick/Bth_ingame_yaogan1.png',
             slider_mini_image = '@defaultui/image/joystick/Bth_ingame_yaogan3.png',
@@ -169,7 +164,6 @@ return gui_pkg.page_template {
                 row_self = 'start',
             },
             name = '移动键盘',
-            show = true,
         },1,
         lib_control.交互摇杆 {
             active_percent = 0.15,
@@ -194,7 +188,6 @@ return gui_pkg.page_template {
             outer_ratio = 0.971,
             press_region_type = 1,
             shortcut_key_bg = '@defaultui/image/panel/底框_快捷键.png',
-            show = true,
             skill_charge_cool = '@defaultui/image/control/充能技能冷却条.png',
             skill_click = '@defaultui/image/control/点击技能框.png',
             skill_cool = '@defaultui/image/control/冷却.png',

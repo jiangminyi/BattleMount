@@ -9,7 +9,6 @@
 @single_simple_ts_template_5_vhib/image/Weiyan_R.png
 Attack_01
 Attack_02
-attack_01
 characters/heartbeat/quzg/model.prefab
 characters1/nvwu_nv3b/model.prefab
 characters1/youguinvyao_85gb/model.prefab

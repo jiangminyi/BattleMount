@@ -4,28 +4,17 @@
         "__TYPE":"Array",
         "contents":[
             {
-                "ElementName":"FunctionCall",
+                "ElementName":"If",
                 "breakPointInfo":{
                     "disabled":false,
                     "hasBreakPoint":false,
                     "type":2
                 },
-                "displayName":"",
-                "flags":{
-                },
-                "funcSource":{
-                    "ElementName":"Source",
-                    "targetUninit":{
-                        "id":"FunctionDefine:根据关卡配置表创造怪物:730140868",
-                        "packageName":"p_8e93",
-                        "s_or_c":"server"
-                    }
-                },
-                "parameters":{
+                "conditions":{
                     "__TYPE":"Array",
                     "contents":[
                         {
-                            "ElementName":"SourceValue",
+                            "ElementName":"FunctionCall",
                             "breakPointInfo":{
                                 "disabled":false,
                                 "hasBreakPoint":false,
@@ -34,35 +23,472 @@
                             "displayName":"",
                             "flags":{
                             },
+                            "funcSource":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:CompareFunction",
+                                    "packageName":"__common__",
+                                    "s_or_c":"common"
+                                }
+                            },
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"Instant",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "type":{
+                                            "ElementName":"SimpleType",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"字符串",
+                                            "flags":{
+                                            },
+                                            "name":"string",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":""
+                                        },
+                                        "value":"eq"
+                                    },
+                                    {
+                                        "ElementName":"Index",
+                                        "baseValue":{
+                                            "ElementName":"SourceValue",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "s_or_c":"server",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "valueSource":{
+                                                "ElementName":"Source",
+                                                "targetUninit":{
+                                                    "id":"Variable:e:491901363",
+                                                    "packageName":"p_8e93",
+                                                    "s_or_c":"server"
+                                                }
+                                            }
+                                        },
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "indexSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:1655177216:新参数3",
+                                                "packageName":"__server__",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"PresetPropertyId:(Preset:键盘按键3068133376.0, Linkspace:default, PresetKey:L)",
+                                                "packageName":"__common__",
+                                                "s_or_c":"common"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "s_or_c":"server",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
                                 }
                             },
                             "tips":"",
-                            "valueSource":{
-                                "ElementName":"IdPresetSource",
-                                "targetUninit":{
-                                    "id":"Preset:level_id",
-                                    "packageName":"__common__",
-                                    "prefix":"current_project",
-                                    "s_or_c":"common",
-                                    "short_link":"$$$$.level.加德关配置1.root"
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
                                 }
                             }
                         }
                     ]
                 },
+                "displayName":"",
+                "falseActions":{
+                    "__TYPE":"Array",
+                    "contents":[
+                        {
+                            "ElementName":"If",
+                            "breakPointInfo":{
+                                "disabled":false,
+                                "hasBreakPoint":false,
+                                "type":2
+                            },
+                            "conditions":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"FunctionCall",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "funcSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:CompareFunction",
+                                                "packageName":"__common__",
+                                                "s_or_c":"common"
+                                            }
+                                        },
+                                        "parameters":{
+                                            "__TYPE":"Array",
+                                            "contents":[
+                                                {
+                                                    "ElementName":"Instant",
+                                                    "breakPointInfo":{
+                                                        "disabled":false,
+                                                        "hasBreakPoint":false,
+                                                        "type":2
+                                                    },
+                                                    "displayName":"",
+                                                    "flags":{
+                                                    },
+                                                    "staticWarningMsgs":{
+                                                        "__TYPE":"Array",
+                                                        "contents":{
+                                                        }
+                                                    },
+                                                    "tips":"",
+                                                    "type":{
+                                                        "ElementName":"SimpleType",
+                                                        "breakPointInfo":{
+                                                            "disabled":false,
+                                                            "hasBreakPoint":false,
+                                                            "type":2
+                                                        },
+                                                        "displayName":"字符串",
+                                                        "flags":{
+                                                        },
+                                                        "name":"string",
+                                                        "staticWarningMsgs":{
+                                                            "__TYPE":"Array",
+                                                            "contents":{
+                                                            }
+                                                        },
+                                                        "tips":""
+                                                    },
+                                                    "value":"eq"
+                                                },
+                                                {
+                                                    "ElementName":"Index",
+                                                    "baseValue":{
+                                                        "ElementName":"SourceValue",
+                                                        "breakPointInfo":{
+                                                            "disabled":false,
+                                                            "hasBreakPoint":false,
+                                                            "type":2
+                                                        },
+                                                        "displayName":"",
+                                                        "flags":{
+                                                        },
+                                                        "s_or_c":"server",
+                                                        "staticWarningMsgs":{
+                                                            "__TYPE":"Array",
+                                                            "contents":{
+                                                            }
+                                                        },
+                                                        "tips":"",
+                                                        "valueSource":{
+                                                            "ElementName":"Source",
+                                                            "targetUninit":{
+                                                                "id":"Variable:e:491901363",
+                                                                "packageName":"p_8e93",
+                                                                "s_or_c":"server"
+                                                            }
+                                                        }
+                                                    },
+                                                    "breakPointInfo":{
+                                                        "disabled":false,
+                                                        "hasBreakPoint":false,
+                                                        "type":2
+                                                    },
+                                                    "displayName":"",
+                                                    "flags":{
+                                                    },
+                                                    "indexSource":{
+                                                        "ElementName":"Source",
+                                                        "targetUninit":{
+                                                            "id":"Variable:1655177216:新参数3",
+                                                            "packageName":"__server__",
+                                                            "s_or_c":"server"
+                                                        }
+                                                    },
+                                                    "s_or_c":"server",
+                                                    "staticWarningMsgs":{
+                                                        "__TYPE":"Array",
+                                                        "contents":{
+                                                        }
+                                                    },
+                                                    "tips":""
+                                                },
+                                                {
+                                                    "ElementName":"SourceValue",
+                                                    "breakPointInfo":{
+                                                        "disabled":false,
+                                                        "hasBreakPoint":false,
+                                                        "type":2
+                                                    },
+                                                    "displayName":"",
+                                                    "flags":{
+                                                    },
+                                                    "staticWarningMsgs":{
+                                                        "__TYPE":"Array",
+                                                        "contents":{
+                                                        }
+                                                    },
+                                                    "tips":"",
+                                                    "valueSource":{
+                                                        "ElementName":"Source",
+                                                        "targetUninit":{
+                                                            "id":"PresetPropertyId:(Preset:键盘按键3068133376.0, Linkspace:default, PresetKey:F)",
+                                                            "packageName":"__common__",
+                                                            "s_or_c":"common"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "typeParameters":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "displayName":"",
+                            "falseActions":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "flags":{
+                            },
+                            "s_or_c":"server",
+                            "staticWarningMsgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "tips":"",
+                            "trueActions":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"FunctionCall",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "funcSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:根据关卡配置表创造怪物:730140868",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        "parameters":{
+                                            "__TYPE":"Array",
+                                            "contents":[
+                                                {
+                                                    "ElementName":"SourceValue",
+                                                    "breakPointInfo":{
+                                                        "disabled":false,
+                                                        "hasBreakPoint":false,
+                                                        "type":2
+                                                    },
+                                                    "displayName":"",
+                                                    "flags":{
+                                                    },
+                                                    "staticWarningMsgs":{
+                                                        "__TYPE":"Array",
+                                                        "contents":{
+                                                        }
+                                                    },
+                                                    "tips":"",
+                                                    "valueSource":{
+                                                        "ElementName":"IdPresetSource",
+                                                        "targetUninit":{
+                                                            "id":"Preset:level_id",
+                                                            "packageName":"__common__",
+                                                            "prefix":"current_project",
+                                                            "s_or_c":"common",
+                                                            "short_link":"$$$$.level.加德关配置1.root"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "typeParameters":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "flags":{
+                },
+                "s_or_c":"server",
                 "staticWarningMsgs":{
                     "__TYPE":"Array",
                     "contents":{
                     }
                 },
                 "tips":"",
-                "typeParameters":{
+                "trueActions":{
                     "__TYPE":"Array",
-                    "contents":{
-                    }
+                    "contents":[
+                        {
+                            "ElementName":"FunctionCall",
+                            "breakPointInfo":{
+                                "disabled":false,
+                                "hasBreakPoint":false,
+                                "type":2
+                            },
+                            "displayName":"",
+                            "flags":{
+                            },
+                            "funcSource":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:根据刷怪数编表创造怪物:1736498993",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"IdPresetSource",
+                                            "targetUninit":{
+                                                "id":"Preset:spawner_id",
+                                                "packageName":"__common__",
+                                                "prefix":"current_project",
+                                                "s_or_c":"common",
+                                                "short_link":"$$$$.spawner.测试.root"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "staticWarningMsgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "tips":"",
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         ]
@@ -88,7 +514,7 @@
                 "funcSource":{
                     "ElementName":"Source",
                     "targetUninit":{
-                        "id":"FunctionDefine:CompareFunction",
+                        "id":"FunctionDefine:LogicFunction",
                         "packageName":"__common__",
                         "s_or_c":"common"
                     }
@@ -130,36 +556,10 @@
                                 },
                                 "tips":""
                             },
-                            "value":"eq"
+                            "value":"or"
                         },
                         {
-                            "ElementName":"Index",
-                            "baseValue":{
-                                "ElementName":"SourceValue",
-                                "breakPointInfo":{
-                                    "disabled":false,
-                                    "hasBreakPoint":false,
-                                    "type":2
-                                },
-                                "displayName":"",
-                                "flags":{
-                                },
-                                "s_or_c":"server",
-                                "staticWarningMsgs":{
-                                    "__TYPE":"Array",
-                                    "contents":{
-                                    }
-                                },
-                                "tips":"",
-                                "valueSource":{
-                                    "ElementName":"Source",
-                                    "targetUninit":{
-                                        "id":"Variable:e:491901363",
-                                        "packageName":"p_8e93",
-                                        "s_or_c":"server"
-                                    }
-                                }
-                            },
+                            "ElementName":"FunctionCall",
                             "breakPointInfo":{
                                 "disabled":false,
                                 "hasBreakPoint":false,
@@ -168,13 +568,131 @@
                             "displayName":"",
                             "flags":{
                             },
-                            "indexSource":{
+                            "funcSource":{
                                 "ElementName":"Source",
                                 "targetUninit":{
-                                    "id":"Variable:1655177216:新参数3",
-                                    "packageName":"__server__",
-                                    "s_or_c":"server"
+                                    "id":"FunctionDefine:CompareFunction",
+                                    "packageName":"__common__",
+                                    "s_or_c":"common"
                                 }
+                            },
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"Instant",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "type":{
+                                            "ElementName":"SimpleType",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"字符串",
+                                            "flags":{
+                                            },
+                                            "name":"string",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":""
+                                        },
+                                        "value":"eq"
+                                    },
+                                    {
+                                        "ElementName":"Index",
+                                        "baseValue":{
+                                            "ElementName":"SourceValue",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "s_or_c":"server",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "valueSource":{
+                                                "ElementName":"Source",
+                                                "targetUninit":{
+                                                    "id":"Variable:e:491901363",
+                                                    "packageName":"p_8e93",
+                                                    "s_or_c":"server"
+                                                }
+                                            }
+                                        },
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "indexSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:1655177216:新参数3",
+                                                "packageName":"__server__",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"PresetPropertyId:(Preset:键盘按键3068133376.0, Linkspace:default, PresetKey:F)",
+                                                "packageName":"__common__",
+                                                "s_or_c":"common"
+                                            }
+                                        }
+                                    }
+                                ]
                             },
                             "s_or_c":"server",
                             "staticWarningMsgs":{
@@ -182,10 +700,15 @@
                                 "contents":{
                                 }
                             },
-                            "tips":""
+                            "tips":"",
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            }
                         },
                         {
-                            "ElementName":"SourceValue",
+                            "ElementName":"FunctionCall",
                             "breakPointInfo":{
                                 "disabled":false,
                                 "hasBreakPoint":false,
@@ -194,18 +717,142 @@
                             "displayName":"",
                             "flags":{
                             },
+                            "funcSource":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:CompareFunction",
+                                    "packageName":"__common__",
+                                    "s_or_c":"common"
+                                }
+                            },
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"Instant",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "type":{
+                                            "ElementName":"SimpleType",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"字符串",
+                                            "flags":{
+                                            },
+                                            "name":"string",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":""
+                                        },
+                                        "value":"eq"
+                                    },
+                                    {
+                                        "ElementName":"Index",
+                                        "baseValue":{
+                                            "ElementName":"SourceValue",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "s_or_c":"server",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "valueSource":{
+                                                "ElementName":"Source",
+                                                "targetUninit":{
+                                                    "id":"Variable:e:491901363",
+                                                    "packageName":"p_8e93",
+                                                    "s_or_c":"server"
+                                                }
+                                            }
+                                        },
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "indexSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:1655177216:新参数3",
+                                                "packageName":"__server__",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"PresetPropertyId:(Preset:键盘按键3068133376.0, Linkspace:default, PresetKey:L)",
+                                                "packageName":"__common__",
+                                                "s_or_c":"common"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "s_or_c":"server",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
                                 }
                             },
                             "tips":"",
-                            "valueSource":{
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"PresetPropertyId:(Preset:键盘按键3068133376.0, Linkspace:default, PresetKey:F)",
-                                    "packageName":"__common__",
-                                    "s_or_c":"common"
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
                                 }
                             }
                         }

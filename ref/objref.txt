@@ -19,6 +19,8 @@ anim/human/barehanded_anim/hand_05/skill_02.ani
 anim/human/barehanded_anim/hand_05/skill_025.ani
 anim/human/sword_anim/DaJianZhanShi/skill_04.ani
 attack
+attack_01
+attack_02
 born
 characters/Monster/SK_Spider_Burrow_S/model.prefab
 characters/general/sk_basic2/model.prefab
@@ -82,11 +84,12 @@ effect/effect_new/effect_hero/effect_trail/eff_trail_05/particle.effect
 effect/effect_new/effect_hit/eff_boom_01/particle.effect
 effect/effect_new/effect_hit/eff_fire_hit_01/particle.effect
 effect/effect_new/effect_hit/eff_hit_10/particle.effect
-effect/effect_new/effect_hit/eff_hit_18/particle.effect
+effect/effect_new/effect_hit/eff_hit_27/particle.effect
 effect/effect_new/effect_hit/eff_hit_29/particle.effect
 effect/effect_new/effect_hit/eff_jingguangjianfa_hit/particle.effect
 effect/effect_new/effect_knief/eff_knief_004/particle.effect
 effect/effect_new/effect_mofa/eff_aoe/eff_aoe_hit_012/particle.effect
+effect/effect_new/effect_mofa/eff_aoe/eff_aoe_hit_09/particle.effect
 effect/effect_new/effect_mofa/eff_iceball_02/particle.effect
 effect/effect_new/effect_mofa/eff_rectangle/eff_rectangle_01/particle.effect
 effect/effect_new/effect_zhishiqi/eff_juxing/ps_tou_1/particle.effect
@@ -114,7 +117,6 @@ effect/effect_new/effect_zhishiqi/eff_zhishiqi/ps_zhixiangxing_red_1/particle.ef
 effect/effect_new/effect_zhishiqi/eff_zhixianxing/ps_tou_1/particle.effect
 effect/effect_new1/eff_weapon/eff_weapon_011/particle.effect
 effect/effect_new1/effect_knief/eff_daoguang06/particle.effect
-effect/effect_new1/effect_knief/eff_zhuaji/particle.effect
 effect/samplespells/avatar/avatar_caster/particle.effect
 effect/samplespells/devotion/devotionaura/particle.effect
 effect/samplespells/fan_of_knives/fanofknives_hit/particle.effect
@@ -176,8 +178,9 @@ sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_water_05.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_water_06.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_water_07.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_water_08.ogg
+sound/a2_sfx/fight/impact/sfx_imp_punch_dash_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_cast_imprisoned_01.ogg
-sound/a2_sfx/fight/statuseffect/sfx_body_fat_hvy_atk_01.ogg
+sound/a2_sfx/fight/magic/sfx_magic_meteorite_stone_large_hitground.ogg
 sound/a2_sfx/fight/statuseffect/sfx_whirl_hvy_wind_lp.ogg
 sound/a2_sfx/ui/general/UI_DrawCard_OneTimes_Box_Gold_Open.ogg
 sound/a2_sfx/ui/general/UI_DrawCard_OneTimes_Box_Ordinary_Open.ogg
@@ -213,7 +216,6 @@ sound/a5_epicsfx/weapons/Weapons_ImpactsGore_10.ogg
 sound/a5_epicsfx/weapons/Weapons_ImpactsGore_107.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_36.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_57.ogg
-sound/a5_epicsfx/weapons/Weapons_Melee_80.ogg
 sound/a5_epicsfx/weapons/Weapons_Melee_87.ogg
 sound/battle_grounds_sound/level_up.ogg
 sound/battle_party_sound/bgm/amb_bp_winner_shout.ogg

@@ -348,6 +348,22 @@
                                     "packageName":"p_8e93",
                                     "s_or_c":"server"
                                 }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:自定义关卡刷怪配置:829848569",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"FunctionDefine:自定义刷怪表刷怪配置:4000763834",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
                             }
                         ]
                     },
@@ -362,6 +378,14 @@
                         }
                     },
                     "tips":""
+                },
+                {
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"Variable:场景怪物总数:2448350299",
+                        "packageName":"p_8e93",
+                        "s_or_c":"server"
+                    }
                 }
             ]
         },
