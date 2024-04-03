@@ -2264,7 +2264,8 @@
         ]
     },
     "flags":{
-        "enableDisplayName":true
+        "enableDisplayName":true,
+        "initOn":false
     },
     "id":"Trigger:怪物死亡:3218472960.0",
     "keyword":"",

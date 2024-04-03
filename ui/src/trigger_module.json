@@ -260,6 +260,14 @@
                                     "packageName":"p_8e93",
                                     "s_or_c":"client"
                                 }
+                            },
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"Trigger:更新怪物总数ui:2093286080",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"client"
+                                }
                             }
                         ]
                     },

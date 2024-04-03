@@ -9,11 +9,11 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
+local lib_control = require '@lib_control.component'
+local smallcard_inventory = require '@smallcard_inventory.component'
 local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 local gameui = require '@gameui.component'
-local smallcard_inventory = require '@smallcard_inventory.component'
 local smallcard_store = require '@smallcard_store.component'
-local lib_control = require '@lib_control.component'
 local lib_game_options = require '@lib_game_options.component'
 
 return gui_pkg.page_template {
@@ -26,8 +26,8 @@ return gui_pkg.page_template {
                 grow_height = 1,
                 grow_width = 1,
                 relative = {
-                    [1] = 2.0,
-                    [2] = 2.0,
+                    [1] = 1.9685668945312,
+                    [2] = 1.9685668945312,
                 },
             },
             name = 'MainPage',
@@ -151,7 +151,7 @@ return gui_pkg.page_template {
             show = false,
             socket_name = 'socket_root',
         },1,
-        gameui.sci_1_major_btn {
+        gameui.sci_2_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -179,7 +179,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.sci_3_rect {
+        gameui.normal_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -561,7 +561,7 @@ return gui_pkg.page_template {
             name = '怪物面板',
             show = true,
         },7,
-        gameui.sci_1_major_btn {
+        gameui.sci_2_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -591,7 +591,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },8,
-        gameui.sci_1_major_btn {
+        gameui.sci_2_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -1008,7 +1008,7 @@ return gui_pkg.page_template {
             show = true,
             text = '拆除',
         },32,
-        gameui.sci_3_rect {
+        gameui.normal_rect {
             border = {
                 bottom = 30,
                 left = 128,

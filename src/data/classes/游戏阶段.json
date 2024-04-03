@@ -183,7 +183,7 @@
                     "contents":{
                     }
                 },
-                "tips":"",
+                "tips":"当前阶段名称",
                 "uiText":""
             },
             {
@@ -269,7 +269,7 @@
                     "contents":{
                     }
                 },
-                "tips":"“刷怪，彩蛋或其他类型的阶段”",
+                "tips":"“代表刷怪，彩蛋或其他种类的阶段类型”",
                 "uiText":""
             },
             {
@@ -355,7 +355,268 @@
                     "contents":{
                     }
                 },
-                "tips":"进入下一阶段前的最长时间",
+                "tips":"当前阶段默认的存在时间",
+                "uiText":""
+            },
+            {
+                "ElementName":"ClassProperty",
+                "_uiList":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "_uiText":"",
+                "breakPointInfo":{
+                    "disabled":false,
+                    "hasBreakPoint":false,
+                    "type":2
+                },
+                "defaultValue":{
+                    "ElementName":"Instant",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":"",
+                    "type":{
+                        "ElementName":"SimpleType",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "displayName":"数值",
+                        "flags":{
+                        },
+                        "name":"number",
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":""
+                    },
+                    "value":1
+                },
+                "description":"",
+                "displayName":"难度系数",
+                "flags":{
+                },
+                "id":"Class:游戏阶段:2848214363, ClassProperty:难度系数",
+                "keyword":"",
+                "label":"默认",
+                "name":"难度系数",
+                "packageName":"p_8e93",
+                "rankOrder":5,
+                "realType":{
+                    "ElementName":"SimpleType",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"数值",
+                    "flags":{
+                    },
+                    "name":"number",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
+                },
+                "s_or_c":"server",
+                "staticWarningMsgs":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "tips":"影响当前阶段刷出怪属性的难度系数",
+                "uiText":""
+            },
+            {
+                "ElementName":"ClassProperty",
+                "_uiList":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "_uiText":"",
+                "breakPointInfo":{
+                    "disabled":false,
+                    "hasBreakPoint":false,
+                    "type":2
+                },
+                "defaultValue":{
+                    "ElementName":"NewClassFunctionCall",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "funcSource":{
+                        "ElementName":"Source",
+                        "targetUninit":{
+                            "id":"Class:Array:Constructor",
+                            "packageName":"__common__",
+                            "s_or_c":"common"
+                        }
+                    },
+                    "parameters":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"SourceValue",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"",
+                                "flags":{
+                                },
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":"",
+                                "valueSource":{
+                                    "ElementName":"IdPresetSource",
+                                    "targetUninit":{
+                                        "id":"Preset:spawner_id",
+                                        "packageName":"__common__",
+                                        "prefix":"current_project",
+                                        "s_or_c":"common",
+                                        "short_link":"$$$$.spawner.1.root"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "s_or_c":"server",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":"",
+                    "typeParameters":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"PresetType",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"",
+                                "flags":{
+                                },
+                                "presetSource":{
+                                    "ElementName":"Source",
+                                    "targetUninit":{
+                                        "id":"Preset:spawner_id",
+                                        "packageName":"__common__",
+                                        "s_or_c":"common"
+                                    }
+                                },
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            }
+                        ]
+                    }
+                },
+                "description":"",
+                "displayName":"怪物信息",
+                "flags":{
+                },
+                "id":"Class:游戏阶段:2848214363, ClassProperty:怪物信息",
+                "keyword":"",
+                "label":"默认",
+                "name":"怪物信息",
+                "packageName":"p_8e93",
+                "rankOrder":6,
+                "realType":{
+                    "ElementName":"InstanceType",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "source":{
+                        "ElementName":"Source",
+                        "targetUninit":{
+                            "id":"Class:Array",
+                            "packageName":"__common__",
+                            "s_or_c":"common"
+                        }
+                    },
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":"",
+                    "typeArgs":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"PresetType",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"",
+                                "flags":{
+                                },
+                                "presetSource":{
+                                    "ElementName":"Source",
+                                    "targetUninit":{
+                                        "id":"Preset:spawner_id",
+                                        "packageName":"__common__",
+                                        "s_or_c":"common"
+                                    }
+                                },
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            }
+                        ]
+                    }
+                },
+                "s_or_c":"server",
+                "staticWarningMsgs":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "tips":"存储当前阶段刷出怪物的数编id数组",
                 "uiText":""
             }
         ]
@@ -401,6 +662,22 @@
                         "packageName":"p_8e93",
                         "s_or_c":"server"
                     }
+                },
+                {
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"Class:游戏阶段:2848214363, ClassProperty:难度系数",
+                        "packageName":"p_8e93",
+                        "s_or_c":"server"
+                    }
+                },
+                {
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"Class:游戏阶段:2848214363, ClassProperty:怪物信息",
+                        "packageName":"p_8e93",
+                        "s_or_c":"server"
+                    }
                 }
             ]
         },
@@ -442,7 +719,7 @@
     "keyword":"",
     "name":"游戏阶段",
     "packageName":"p_8e93",
-    "rankOrder":5,
+    "rankOrder":2,
     "s_or_c":"server",
     "staticWarningMsgs":{
         "__TYPE":"Array",
