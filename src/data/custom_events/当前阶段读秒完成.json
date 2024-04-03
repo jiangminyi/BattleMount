@@ -46,6 +46,7 @@
                         "displayName":"",
                         "flags":{
                         },
+                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -219,6 +220,7 @@
                                 "displayName":"",
                                 "flags":{
                                 },
+                                "s_or_c":"server",
                                 "staticWarningMsgs":{
                                     "__TYPE":"Array",
                                     "contents":{
@@ -434,6 +436,7 @@
                             "displayName":"",
                             "flags":{
                             },
+                            "s_or_c":"client",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
@@ -595,6 +598,7 @@
                                     "displayName":"",
                                     "flags":{
                                     },
+                                    "s_or_c":"client",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -776,6 +780,7 @@
         "keyword":"",
         "name":"当前阶段读秒完成",
         "packageName":"p_8e93",
+        "rankOrder":0,
         "s_or_c":"client",
         "staticWarningMsgs":{
             "__TYPE":"Array",
@@ -795,41 +800,6 @@
                     "disabled":false,
                     "hasBreakPoint":false,
                     "type":2
-                },
-                "caller":{
-                    "ElementName":"Instant",
-                    "breakPointInfo":{
-                        "disabled":false,
-                        "hasBreakPoint":false,
-                        "type":2
-                    },
-                    "displayName":"",
-                    "flags":{
-                    },
-                    "staticWarningMsgs":{
-                        "__TYPE":"Array",
-                        "contents":{
-                        }
-                    },
-                    "tips":"",
-                    "type":{
-                        "ElementName":"SimpleType",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"未定义",
-                        "flags":{
-                        },
-                        "name":"undefined",
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":""
-                    }
                 },
                 "displayName":"",
                 "flags":{
@@ -855,6 +825,7 @@
                             "displayName":"",
                             "flags":{
                             },
+                            "s_or_c":"client",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
@@ -872,6 +843,7 @@
                         }
                     ]
                 },
+                "s_or_c":"client",
                 "staticWarningMsgs":{
                     "__TYPE":"Array",
                     "contents":{
@@ -891,6 +863,7 @@
             "keyword":"",
             "name":"this",
             "packageName":"p_8e93",
+            "rankOrder":0,
             "realType":{
                 "ElementName":"InstanceType",
                 "breakPointInfo":{
@@ -989,41 +962,6 @@
                 "hasBreakPoint":false,
                 "type":2
             },
-            "caller":{
-                "ElementName":"Instant",
-                "breakPointInfo":{
-                    "disabled":false,
-                    "hasBreakPoint":false,
-                    "type":2
-                },
-                "displayName":"",
-                "flags":{
-                },
-                "staticWarningMsgs":{
-                    "__TYPE":"Array",
-                    "contents":{
-                    }
-                },
-                "tips":"",
-                "type":{
-                    "ElementName":"SimpleType",
-                    "breakPointInfo":{
-                        "disabled":false,
-                        "hasBreakPoint":false,
-                        "type":2
-                    },
-                    "displayName":"未定义",
-                    "flags":{
-                    },
-                    "name":"undefined",
-                    "staticWarningMsgs":{
-                        "__TYPE":"Array",
-                        "contents":{
-                        }
-                    },
-                    "tips":""
-                }
-            },
             "displayName":"",
             "flags":{
             },
@@ -1048,6 +986,7 @@
                         "displayName":"",
                         "flags":{
                         },
+                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -1065,6 +1004,7 @@
                     }
                 ]
             },
+            "s_or_c":"server",
             "staticWarningMsgs":{
                 "__TYPE":"Array",
                 "contents":{
@@ -1084,6 +1024,7 @@
         "keyword":"",
         "name":"this",
         "packageName":"p_8e93",
+        "rankOrder":0,
         "realType":{
             "ElementName":"InstanceType",
             "breakPointInfo":{

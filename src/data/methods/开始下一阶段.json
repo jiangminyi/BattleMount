@@ -614,7 +614,7 @@
         "contents":{
         }
     },
-    "rankOrder":9,
+    "rankOrder":10,
     "realReturnType":{
         "ElementName":"SimpleType",
         "breakPointInfo":{
@@ -761,6 +761,7 @@
                 "keyword":"",
                 "name":"当前游戏阶段",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"InstanceType",
                     "breakPointInfo":{
@@ -866,6 +867,7 @@
                 "keyword":"",
                 "name":"阶段名称",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{

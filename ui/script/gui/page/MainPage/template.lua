@@ -9,12 +9,12 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
-local lib_game_options = require '@lib_game_options.component'
-local smallcard_store = require '@smallcard_store.component'
+local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
 local gameui = require '@gameui.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
-local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
+local smallcard_store = require '@smallcard_store.component'
 local lib_control = require '@lib_control.component'
+local lib_game_options = require '@lib_game_options.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -26,31 +26,13 @@ return gui_pkg.page_template {
                 grow_height = 1,
                 grow_width = 1,
                 relative = {
-                    [1] = 1.9685668945312,
-                    [2] = 1.9685668945312,
+                    [1] = 2.0,
+                    [2] = 2.0,
                 },
             },
             name = 'MainPage',
             show = true,
         },0,
-        smallcard_unit_attr_panel.单位属性面板 {
-            bind_unit = 0,
-            layout = {
-                col_self = 'start',
-                grow_height = 0,
-                grow_width = 0,
-                height = 72,
-                ratio = {},
-                relative = {
-                    [1] = 0.0,
-                    [2] = 0.0,
-                },
-                row_self = 'center',
-                width = 714,
-            },
-            name = '单位属性面板3',
-            show = true,
-        },1,
         smallcard_store.商店_商店面板 {
             layout = {
                 col_self = 'center',
@@ -121,16 +103,32 @@ return gui_pkg.page_template {
                 col_self = 'start',
                 grow_height = 0,
                 grow_width = 0,
-                height = 80,
+                height = 80.0,
                 relative = {
                     [1] = 30,
                     [2] = 30,
                 },
                 row_self = 'start',
-                width = 350,
+                width = 487.62426757812,
             },
             name = '玩家信息面板',
             round_corner_radius = 50,
+            show = true,
+        },1,
+        ctrl_wrapper.panel {
+            color = '#00000078',
+            layout = {
+                col_self = 'start',
+                height = 50.0,
+                position = {},
+                relative = {
+                    [1] = 0,
+                    [2] = 30.0,
+                },
+                row_self = 'center',
+                width = 473.71508789062,
+            },
+            name = '游戏阶段面板',
             show = true,
         },1,
         gameui.attachable_panel {
@@ -153,7 +151,7 @@ return gui_pkg.page_template {
             show = false,
             socket_name = 'socket_root',
         },1,
-        gameui.gf_3_minor_btn {
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -181,7 +179,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.sci_1_rect {
+        gameui.sci_3_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -212,110 +210,24 @@ return gui_pkg.page_template {
             show = false,
             style = 'image/rect/面板-科技1.png',
         },1,
-        smallcard_unit_attr_panel.单位属性 {
-            accuracy_display = 1,
-            attr_multiply = 1,
-            bind_attr = get_text('护甲'),
-            cat_button_height = 132,
-            font_color = '#FFFFFF',
-            font_family = 'Regular',
-            font_size = 30,
-            icon = '@smallcard_unit_attr_panel/image/属性icon (1).png',
+        smallcard_unit_attr_panel.单位属性面板 {
+            bind_unit = 0,
             layout = {
-                col_self = 'center',
-                direction = 'row',
-                height = 48,
+                col_self = 'start',
+                grow_height = 0,
+                grow_width = 0,
+                height = 72,
                 ratio = {},
                 relative = {
-                    [1] = 222,
-                    [2] = 0,
-                },
-                row_content = 'start',
-                row_self = 'start',
-                width = -1,
-            },
-            name = '单位属性4',
-            show = true,
-            show_mode = 0,
-        },2,
-        smallcard_unit_attr_panel.单位属性 {
-            accuracy_display = 1,
-            attr_multiply = 1,
-            bind_attr = '攻击',
-            cat_button_height = 132,
-            font_color = '#FFFFFF',
-            font_family = 'Regular',
-            font_size = 30,
-            icon = '@smallcard_unit_attr_panel/image/属性icon.png',
-            layout = {
-                col_self = 'center',
-                direction = 'row',
-                height = 48,
-                ratio = {},
-                relative = {
-                    [1] = 60,
-                    [2] = 0,
-                },
-                row_content = 'start',
-                row_self = 'start',
-                width = -1,
-            },
-            name = '单位属性4',
-            show = true,
-            show_mode = 0,
-        },2,
-        smallcard_unit_attr_panel.单位属性 {
-            accuracy_display = 1,
-            attr_multiply = 1,
-            bind_attr = '移动速度',
-            cat_button_height = 132,
-            font_color = '#FFFFFF',
-            font_family = 'Regular',
-            font_size = 30,
-            icon = '@smallcard_unit_attr_panel/image/属性icon (2).png',
-            layout = {
-                col_self = 'center',
-                direction = 'row',
-                height = 48,
-                ratio = {},
-                relative = {
-                    [1] = 384,
+                    [1] = 0.0,
                     [2] = 0.0,
                 },
-                row_content = 'start',
-                row_self = 'start',
-                width = -1,
+                row_self = 'center',
+                width = 714,
             },
-            name = '单位属性4',
-            show = true,
-            show_mode = 0,
-        },2,
-        smallcard_unit_attr_panel.单位属性 {
-            accuracy_display = 1,
-            attr_multiply = 1,
-            bind_attr = '生命上限',
-            cat_button_height = 132,
-            font_color = '#FFFFFF',
-            font_family = 'Regular',
-            font_size = 30,
-            icon = '@smallcard_unit_attr_panel/image/属性=魔法.png',
-            layout = {
-                col_self = 'center',
-                direction = 'row',
-                height = 48,
-                ratio = {},
-                relative = {
-                    [1] = 546,
-                    [2] = 0.0,
-                },
-                row_content = 'start',
-                row_self = 'start',
-                width = -1,
-            },
-            name = '单位属性4',
-            show = true,
-            show_mode = 0,
-        },2,
+            name = '单位属性面板3',
+            show = false,
+        },1,
         smallcard_store.商店_商品面板 {
             layout = {
                 col_self = 'end',
@@ -330,7 +242,7 @@ return gui_pkg.page_template {
             name = '商店_商品面板9',
             row_count = 3,
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_关闭按钮 {
             layout = {
                 col_self = 'start',
@@ -344,7 +256,7 @@ return gui_pkg.page_template {
             },
             name = '商店_关闭按钮6',
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_目录 {
             cat_button_active_font_color = '#FFFFFF',
             cat_button_active_image = '@smallcard_store/image/choose.png',
@@ -366,7 +278,7 @@ return gui_pkg.page_template {
             },
             name = '商店_目录4',
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_玩家属性 {
             font_size = 30,
             layout = {
@@ -382,7 +294,7 @@ return gui_pkg.page_template {
             },
             name = '商店_玩家属性5',
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_详情界面 {
             combine_mode = false,
             layout = {
@@ -397,7 +309,7 @@ return gui_pkg.page_template {
             },
             name = '商店_详情界面7',
             show = true,
-        },3,
+        },2,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
             layout = {
@@ -413,7 +325,7 @@ return gui_pkg.page_template {
             },
             name = '分割线',
             show = true,
-        },3,
+        },2,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
             layout = {
@@ -430,7 +342,7 @@ return gui_pkg.page_template {
             },
             name = '分割线',
             show = true,
-        },3,
+        },2,
         ctrl_wrapper.panel {
             color = 'rgba(255, 255, 255, 0.2000)',
             layout = {
@@ -447,7 +359,7 @@ return gui_pkg.page_template {
             },
             name = '分割线',
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_合成面板 {
             layout = {
                 col_content = 'start',
@@ -463,7 +375,7 @@ return gui_pkg.page_template {
             },
             name = '商店_合成面板d',
             show = true,
-        },3,
+        },2,
         smallcard_store.商店_详情界面 {
             combine_mode = true,
             layout = {
@@ -478,7 +390,7 @@ return gui_pkg.page_template {
             },
             name = '商店_详情界面c',
             show = false,
-        },3,
+        },2,
         smallcard_store.商店_合成页签 {
             check_image = '@smallcard_store/image/tab_check.png',
             font_size = 36,
@@ -496,7 +408,7 @@ return gui_pkg.page_template {
             name = '商店_合成页签b',
             show = true,
             uncheck_image = '@smallcard_store/image/tab_default.png',
-        },3,
+        },2,
         ctrl_wrapper.label {
             color = 'rgba(0, 0, 0, 0.0000)',
             font = {
@@ -519,7 +431,7 @@ return gui_pkg.page_template {
             round_corner_radius = 30,
             show = true,
             text = '商店',
-        },6,
+        },5,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/ic_store.png',
@@ -535,44 +447,121 @@ return gui_pkg.page_template {
             },
             name = '商店图片',
             show = true,
-        },6,
+        },5,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
-            image = '@p_8e93/image/warlord-helmet.png',
-            layout = {
-                col_self = 'center',
-                grow_height = 0,
-                grow_width = 0,
-                height = 44.0,
-                relative = {
-                    [1] = 30,
-                    [2] = 0.0,
-                },
-                row_self = 'start',
-                width = 49.0,
-            },
-            name = '生命面板',
-            show = true,
-        },7,
-        ctrl_wrapper.panel {
-            color = 'rgba(255,255,255,255)',
-            image = 'image/icon_guanqia_19.png',
+            image = '@p_8e93/image/minions (2).png',
             layout = {
                 col_self = 'center',
                 grow_height = 0,
                 grow_width = 0,
                 height = 50,
                 relative = {
-                    [1] = 30,
+                    [1] = 20,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 50,
+            },
+            name = '人口面板',
+            show = true,
+        },6,
+        ctrl_wrapper.panel {
+            color = 'rgba(255,255,255,255)',
+            image = '@p_8e93/image/logging (1).png',
+            layout = {
+                col_self = 'center',
+                grow_height = 0,
+                grow_width = 0,
+                height = 50.0,
+                relative = {
+                    [1] = -40,
                     [2] = 0.0,
                 },
                 row_self = 'center',
                 width = 50,
             },
+            name = '木材面包',
+            show = true,
+        },6,
+        ctrl_wrapper.panel {
+            color = 'rgba(255,255,255,255)',
+            image = '@p_8e93/image/cash (1).png',
+            layout = {
+                col_self = 'center',
+                grow_height = 0,
+                grow_width = 0,
+                height = 50.0,
+                relative = {
+                    [1] = -105,
+                    [2] = 0,
+                },
+                row_self = 'end',
+                width = 50,
+            },
             name = '金钱面板',
             show = true,
+        },6,
+        ctrl_wrapper.label {
+            font = {
+                family = 'NoWarRounded',
+                size = 30,
+                stroke = 0,
+            },
+            layout = {
+                col_self = 'center',
+                height = 50.0,
+                position = {},
+                relative = {
+                    [1] = 0.0,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 124.86123657227,
+            },
+            name = '关卡名称',
+            show = true,
+            text = '关卡名称',
         },7,
-        gameui.gf_3_minor_btn {
+        ctrl_wrapper.label {
+            font = {
+                family = 'NoWarRounded',
+                size = 30,
+            },
+            layout = {
+                col_self = 'center',
+                height = 50.0,
+                position = {},
+                relative = {
+                    [1] = 0,
+                    [2] = 0,
+                },
+                row_self = 'center',
+                width = 127.18865966797,
+            },
+            name = '关卡剩余时间',
+            show = true,
+            text = '时间',
+        },7,
+        ctrl_wrapper.panel {
+            color = 'rgba(255,255,255,255)',
+            image = '@p_8e93/image/evil-minion.png',
+            layout = {
+                col_self = 'center',
+                grow_height = 0,
+                grow_width = 0,
+                height = 50.0,
+                relative = {
+                    [1] = -80,
+                    [2] = 0.0,
+                },
+                row_self = 'end',
+                width = 50,
+            },
+            name = '怪物面板',
+            show = true,
+        },7,
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -602,7 +591,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },8,
-        gameui.gf_3_minor_btn {
+        gameui.sci_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -668,6 +657,110 @@ return gui_pkg.page_template {
             show = true,
             text = '游戏失败',
         },10,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '护甲',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon (1).png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 222,
+                    [2] = 0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },11,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '攻击',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon.png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 60,
+                    [2] = 0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },11,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '移动速度',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性icon (2).png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 384,
+                    [2] = 0.0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },11,
+        smallcard_unit_attr_panel.单位属性 {
+            accuracy_display = 1,
+            attr_multiply = 1,
+            bind_attr = '生命上限',
+            cat_button_height = 132,
+            font_color = '#FFFFFF',
+            font_family = 'Regular',
+            font_size = 30,
+            icon = '@smallcard_unit_attr_panel/image/属性=魔法.png',
+            layout = {
+                col_self = 'center',
+                direction = 'row',
+                height = 48,
+                ratio = {},
+                relative = {
+                    [1] = 546,
+                    [2] = 0.0,
+                },
+                row_content = 'start',
+                row_self = 'start',
+                width = -1,
+            },
+            name = '单位属性4',
+            show = true,
+            show_mode = 0,
+        },11,
         ctrl_wrapper.label {
             font = {
                 align = 'left',
@@ -682,18 +775,18 @@ return gui_pkg.page_template {
                 col_self = 'center',
                 grow_height = 0,
                 grow_width = 0,
-                height = 30.0,
+                height = 40,
                 relative = {
                     [1] = 60,
                     [2] = 0.0,
                 },
                 row_self = 'start',
-                width = 85.698120117188,
+                width = 80,
             },
-            name = '怪物数量',
+            name = '人口',
             show = true,
-            text = '怪物数量',
-        },28,
+            text = on_player_prop('人口', '%d'),
+        },25,
         ctrl_wrapper.label {
             font = {
                 align = 'left',
@@ -713,7 +806,38 @@ return gui_pkg.page_template {
             },
             layout = {
                 col_self = 'center',
-                height = 30,
+                height = 40,
+                relative = {
+                    [1] = 60,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 80,
+            },
+            name = '木材',
+            show = true,
+            text = on_player_prop('拥有的木材数量', '%d'),
+        },26,
+        ctrl_wrapper.label {
+            font = {
+                align = 'left',
+                bold = true,
+                family = 'NoWarRounded',
+                shadow = {
+                    color = '#ffffff',
+                    offset = {
+                        [1] = 0,
+                        [2] = 0,
+                    },
+                },
+                size = 30,
+                stroke = 0,
+                stroke_color = 'rgba(0, 0, 0, 1.0000)',
+                vertical_align = 'center',
+            },
+            layout = {
+                col_self = 'center',
+                height = 40,
                 relative = {
                     [1] = 60,
                     [2] = 0.0,
@@ -724,7 +848,38 @@ return gui_pkg.page_template {
             name = '金钱',
             show = true,
             text = on_player_prop('金钱', '%d'),
-        },29,
+        },27,
+        ctrl_wrapper.label {
+            font = {
+                align = 'left',
+                bold = true,
+                family = 'NoWarRounded',
+                shadow = {
+                    color = '#ffffff',
+                    offset = {
+                        [1] = 0,
+                        [2] = 0,
+                    },
+                },
+                size = 30,
+                stroke = 0,
+                stroke_color = 'rgba(0, 0, 0, 1.0000)',
+                vertical_align = 'center',
+            },
+            layout = {
+                col_self = 'center',
+                height = 50,
+                relative = {
+                    [1] = 50,
+                    [2] = 0.0,
+                },
+                row_self = 'start',
+                width = 80,
+            },
+            name = '存活怪物数量',
+            show = true,
+            text = '存活怪物数量',
+        },30,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_19.png',
@@ -742,7 +897,7 @@ return gui_pkg.page_template {
             },
             name = '升级消耗资源图标',
             show = true,
-        },30,
+        },31,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -765,7 +920,7 @@ return gui_pkg.page_template {
             name = '升级消耗资源数量',
             show = true,
             text = '10',
-        },30,
+        },31,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -788,7 +943,7 @@ return gui_pkg.page_template {
             name = '升级描述文本',
             show = true,
             text = '升级',
-        },30,
+        },31,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
             image = 'image/icon_guanqia_19.png',
@@ -806,7 +961,7 @@ return gui_pkg.page_template {
             },
             name = '拆除返还资源图标',
             show = true,
-        },31,
+        },32,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -829,7 +984,7 @@ return gui_pkg.page_template {
             name = '拆除返还资源数量',
             show = true,
             text = '10',
-        },31,
+        },32,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -852,8 +1007,8 @@ return gui_pkg.page_template {
             name = '拆除描述文本',
             show = true,
             text = '拆除',
-        },31,
-        gameui.sci_1_rect {
+        },32,
+        gameui.sci_3_rect {
             border = {
                 bottom = 30,
                 left = 128,
@@ -883,7 +1038,7 @@ return gui_pkg.page_template {
             name = '防御塔属性面板',
             show = true,
             style = 'image/rect/面板-西方2.png',
-        },32,
+        },33,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -902,7 +1057,7 @@ return gui_pkg.page_template {
             name = '单位属性文本_攻击',
             show = true,
             text = '攻击',
-        },42,
+        },49,
         smallcard_unit_attr_panel.单位属性 {
             accuracy_display = 1,
             attr_multiply = 1,
@@ -929,7 +1084,7 @@ return gui_pkg.page_template {
             name = '单位属性_攻击',
             show = true,
             show_mode = 0,
-        },42,
+        },49,
         ctrl_wrapper.label {
             font = {
                 bold = true,
@@ -948,7 +1103,7 @@ return gui_pkg.page_template {
             name = '单位属性文本_等级',
             show = true,
             text = '等级',
-        },42,
+        },49,
         smallcard_unit_attr_panel.单位属性 {
             accuracy_display = 1,
             attr_multiply = 1,
@@ -975,7 +1130,7 @@ return gui_pkg.page_template {
             name = '单位属性_LV',
             show = true,
             show_mode = 0,
-        },42,
+        },49,
         ctrl_wrapper.panel {
             border = {
                 bottom = 0,
@@ -999,6 +1154,6 @@ return gui_pkg.page_template {
             },
             name = '装备栏图标',
             show = true,
-        },42,
+        },49,
     }
 }

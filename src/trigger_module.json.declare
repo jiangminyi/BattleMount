@@ -457,7 +457,7 @@
                 "keyword":"",
                 "name":"游戏阶段",
                 "packageName":"p_8e93",
-                "rankOrder":4,
+                "rankOrder":5,
                 "s_or_c":"server",
                 "staticWarningMsgs":{
                     "__TYPE":"Array",
@@ -6175,6 +6175,1134 @@
                     }
                 },
                 "v2_version":0.100000
+            },
+            {
+                "ElementName":"CustomEvent",
+                "_constructor":{
+                    "ElementName":"ConstructorDefine",
+                    "actions":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "defaultResetParameterCount":0,
+                    "description":"更新阶段ui",
+                    "displayName":"更新阶段ui",
+                    "flags":{
+                        "disableInit":false,
+                        "isDeclare":true,
+                        "isExport":false,
+                        "pop":true,
+                        "selectLimit":"value"
+                    },
+                    "id":"CustomEvent:更新阶段ui:979736324:Constructor",
+                    "keyword":"",
+                    "label":"触发器",
+                    "name":"constructor",
+                    "packageName":"p_8e93",
+                    "parameters":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"Parameter",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "defaultValue":{
+                                    "ElementName":"SourceValue",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"",
+                                    "flags":{
+                                    },
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":"",
+                                    "valueSource":{
+                                        "ElementName":"Source",
+                                        "targetUninit":{
+                                            "id":"PresetPropertyId:(Preset:游戏3205234688.0, Linkspace:default, PresetKey:游戏)",
+                                            "packageName":"__server__",
+                                            "s_or_c":"server"
+                                        }
+                                    }
+                                },
+                                "displayName":"事件发送者",
+                                "flags":{
+                                    "isDeclare":true,
+                                    "isPublic":true,
+                                    "unchangeName":true
+                                },
+                                "id":"Variable:obj:144756764",
+                                "keyword":"",
+                                "name":"obj",
+                                "packageName":"p_8e93",
+                                "realType":{
+                                    "ElementName":"InstanceType",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"",
+                                    "flags":{
+                                    },
+                                    "source":{
+                                        "ElementName":"Source",
+                                        "targetUninit":{
+                                            "id":"Class:gameClass2036858880",
+                                            "packageName":"__server__",
+                                            "s_or_c":"server"
+                                        }
+                                    },
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":"",
+                                    "typeArgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    }
+                                },
+                                "s_or_c":"server",
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            },
+                            {
+                                "ElementName":"Parameter",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"阶段名称",
+                                "flags":{
+                                    "isDeclare":true,
+                                    "isPublic":true
+                                },
+                                "id":"Variable:新参数:3107245212",
+                                "keyword":"",
+                                "name":"阶段名称",
+                                "packageName":"p_8e93",
+                                "realType":{
+                                    "ElementName":"SimpleType",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"字符串",
+                                    "flags":{
+                                    },
+                                    "name":"string",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                },
+                                "s_or_c":"server",
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            },
+                            {
+                                "ElementName":"Parameter",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"阶段剩时间",
+                                "flags":{
+                                    "isDeclare":true,
+                                    "isPublic":true
+                                },
+                                "id":"Variable:新参数:3193935300",
+                                "keyword":"",
+                                "name":"阶段剩时间",
+                                "packageName":"p_8e93",
+                                "realType":{
+                                    "ElementName":"SimpleType",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"数值",
+                                    "flags":{
+                                    },
+                                    "name":"number",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                },
+                                "s_or_c":"server",
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            }
+                        ]
+                    },
+                    "realReturnType":{
+                        "ElementName":"InstanceType",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "displayName":"",
+                        "flags":{
+                        },
+                        "source":{
+                            "ElementName":"Source",
+                            "targetUninit":{
+                                "id":"CustomEvent:更新阶段ui:979736324",
+                                "packageName":"p_8e93",
+                                "s_or_c":"server"
+                            }
+                        },
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":"",
+                        "typeArgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        }
+                    },
+                    "s_or_c":"server",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "subsections":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":"",
+                    "typeParameters":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "typeParametersExtends":{
+                        "__TYPE":"Map",
+                        "contents":{
+                        }
+                    },
+                    "uiText":"",
+                    "v2_version":0.800000,
+                    "variables":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    }
+                },
+                "_methods":{
+                    "__TYPE":"Array",
+                    "contents":[
+                        {
+                            "ElementName":"MethodDefine",
+                            "actions":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "breakPointInfo":{
+                                "disabled":false,
+                                "hasBreakPoint":false,
+                                "type":2
+                            },
+                            "defaultResetParameterCount":0,
+                            "description":"触发自定义事件[更新阶段ui]时",
+                            "displayName":"register",
+                            "flags":{
+                                "ignoreCode":true,
+                                "isDeclare":true,
+                                "isStatic":true,
+                                "pop":true,
+                                "selectLimit":"value"
+                            },
+                            "id":"CustomEvent:更新阶段ui:979736324, MethodDefine:register",
+                            "keyword":"",
+                            "label":"触发器",
+                            "name":"register",
+                            "packageName":"p_8e93",
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"Parameter",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "defaultValue":{
+                                            "ElementName":"SourceValue",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "valueSource":{
+                                                "ElementName":"Source",
+                                                "targetUninit":{
+                                                    "id":"PresetPropertyId:(Preset:游戏3205234688.0, Linkspace:default, PresetKey:游戏)",
+                                                    "packageName":"__server__",
+                                                    "s_or_c":"server"
+                                                }
+                                            }
+                                        },
+                                        "displayName":"事件发送者",
+                                        "flags":{
+                                            "isDeclare":true,
+                                            "isPublic":true,
+                                            "unchangeName":true
+                                        },
+                                        "id":"Variable:obj:863985089",
+                                        "keyword":"",
+                                        "name":"obj",
+                                        "packageName":"p_8e93",
+                                        "realType":{
+                                            "ElementName":"InstanceType",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "source":{
+                                                "ElementName":"Source",
+                                                "targetUninit":{
+                                                    "id":"Class:gameClass2036858880",
+                                                    "packageName":"__server__",
+                                                    "s_or_c":"server"
+                                                }
+                                            },
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "typeArgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            }
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    }
+                                ]
+                            },
+                            "realReturnType":{
+                                "ElementName":"SimpleType",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"触发器注册事件",
+                                "flags":{
+                                },
+                                "name":"EventRegister",
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":""
+                            },
+                            "s_or_c":"server",
+                            "staticWarningMsgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "subsections":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "tips":"",
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "typeParametersExtends":{
+                                "__TYPE":"Map",
+                                "contents":{
+                                }
+                            },
+                            "uiText":"~1~触发自定义事件[更新阶段ui]时",
+                            "v2_version":0.800000,
+                            "variables":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            }
+                        }
+                    ]
+                },
+                "_properties":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "breakPointInfo":{
+                    "disabled":false,
+                    "hasBreakPoint":false,
+                    "type":2
+                },
+                "displayName":"更新阶段ui",
+                "extends_source":{
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"__server__,Class:TriggerEvent",
+                        "packageName":"__server__",
+                        "s_or_c":"server"
+                    }
+                },
+                "flags":{
+                    "autoForward":true,
+                    "isDeclare":true
+                },
+                "folder":{
+                    "ElementName":"Folder",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "contents":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"CustomEvent:更新阶段ui:979736324, MethodDefine:register",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            }
+                        ]
+                    },
+                    "displayName":"",
+                    "flags":{
+                    },
+                    "name":"更新阶段ui",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
+                },
+                "id":"CustomEvent:更新阶段ui:979736324",
+                "image_event":{
+                    "ElementName":"CustomEvent",
+                    "_constructor":{
+                        "ElementName":"ConstructorDefine",
+                        "actions":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "defaultResetParameterCount":0,
+                        "description":"更新阶段ui",
+                        "displayName":"更新阶段ui",
+                        "flags":{
+                            "disableInit":false,
+                            "isDeclare":true,
+                            "isExport":false,
+                            "pop":true,
+                            "selectLimit":"value"
+                        },
+                        "id":"CustomEvent:更新阶段ui:500302400:Constructor",
+                        "keyword":"",
+                        "label":"触发器",
+                        "name":"constructor",
+                        "packageName":"p_8e93",
+                        "parameters":{
+                            "__TYPE":"Array",
+                            "contents":[
+                                {
+                                    "ElementName":"Parameter",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "defaultValue":{
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"PresetPropertyId:(Preset:游戏247595008, Linkspace:default, PresetKey:游戏)",
+                                                "packageName":"__client__",
+                                                "s_or_c":"client"
+                                            }
+                                        }
+                                    },
+                                    "displayName":"事件发送者",
+                                    "flags":{
+                                        "isDeclare":true,
+                                        "isPublic":true,
+                                        "unchangeName":true
+                                    },
+                                    "id":"Variable:obj:1676543953",
+                                    "keyword":"",
+                                    "name":"obj",
+                                    "packageName":"p_8e93",
+                                    "realType":{
+                                        "ElementName":"SimpleType",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"unknown",
+                                        "flags":{
+                                        },
+                                        "name":"unknown",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    "s_or_c":"client",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                },
+                                {
+                                    "ElementName":"Parameter",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"阶段名称",
+                                    "flags":{
+                                        "isDeclare":true,
+                                        "isPublic":true
+                                    },
+                                    "id":"Variable:新参数:4206405870",
+                                    "keyword":"",
+                                    "name":"阶段名称",
+                                    "packageName":"p_8e93",
+                                    "realType":{
+                                        "ElementName":"SimpleType",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"字符串",
+                                        "flags":{
+                                        },
+                                        "name":"string",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    "s_or_c":"client",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                },
+                                {
+                                    "ElementName":"Parameter",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"阶段剩时间",
+                                    "flags":{
+                                        "isDeclare":true,
+                                        "isPublic":true
+                                    },
+                                    "id":"Variable:新参数:860940869",
+                                    "keyword":"",
+                                    "name":"阶段剩时间",
+                                    "packageName":"p_8e93",
+                                    "realType":{
+                                        "ElementName":"SimpleType",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"数值",
+                                        "flags":{
+                                        },
+                                        "name":"number",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":""
+                                    },
+                                    "s_or_c":"client",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                }
+                            ]
+                        },
+                        "realReturnType":{
+                            "ElementName":"InstanceType",
+                            "breakPointInfo":{
+                                "disabled":false,
+                                "hasBreakPoint":false,
+                                "type":2
+                            },
+                            "displayName":"",
+                            "flags":{
+                            },
+                            "source":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"CustomEvent:更新阶段ui:500302400",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"client"
+                                }
+                            },
+                            "staticWarningMsgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "tips":"",
+                            "typeArgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            }
+                        },
+                        "s_or_c":"client",
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "subsections":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":"",
+                        "typeParameters":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "typeParametersExtends":{
+                            "__TYPE":"Map",
+                            "contents":{
+                            }
+                        },
+                        "uiText":"",
+                        "v2_version":0.800000,
+                        "variables":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        }
+                    },
+                    "_methods":{
+                        "__TYPE":"Array",
+                        "contents":[
+                            {
+                                "ElementName":"MethodDefine",
+                                "actions":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "defaultResetParameterCount":0,
+                                "description":"触发自定义事件[更新阶段ui]时",
+                                "displayName":"register",
+                                "flags":{
+                                    "ignoreCode":true,
+                                    "isDeclare":true,
+                                    "isStatic":true,
+                                    "pop":true,
+                                    "selectLimit":"value"
+                                },
+                                "id":"CustomEvent:更新阶段ui:500302400, MethodDefine:register",
+                                "keyword":"",
+                                "label":"触发器",
+                                "name":"register",
+                                "packageName":"p_8e93",
+                                "parameters":{
+                                    "__TYPE":"Array",
+                                    "contents":[
+                                        {
+                                            "ElementName":"Parameter",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "defaultValue":{
+                                                "ElementName":"SourceValue",
+                                                "breakPointInfo":{
+                                                    "disabled":false,
+                                                    "hasBreakPoint":false,
+                                                    "type":2
+                                                },
+                                                "displayName":"",
+                                                "flags":{
+                                                },
+                                                "staticWarningMsgs":{
+                                                    "__TYPE":"Array",
+                                                    "contents":{
+                                                    }
+                                                },
+                                                "tips":"",
+                                                "valueSource":{
+                                                    "ElementName":"Source",
+                                                    "targetUninit":{
+                                                        "id":"PresetPropertyId:(Preset:游戏247595008, Linkspace:default, PresetKey:游戏)",
+                                                        "packageName":"__client__",
+                                                        "s_or_c":"client"
+                                                    }
+                                                }
+                                            },
+                                            "displayName":"事件发送者",
+                                            "flags":{
+                                                "isDeclare":true,
+                                                "isPublic":true,
+                                                "unchangeName":true
+                                            },
+                                            "id":"Variable:obj:585040087",
+                                            "keyword":"",
+                                            "name":"obj",
+                                            "packageName":"p_8e93",
+                                            "realType":{
+                                                "ElementName":"SimpleType",
+                                                "breakPointInfo":{
+                                                    "disabled":false,
+                                                    "hasBreakPoint":false,
+                                                    "type":2
+                                                },
+                                                "displayName":"unknown",
+                                                "flags":{
+                                                },
+                                                "name":"unknown",
+                                                "staticWarningMsgs":{
+                                                    "__TYPE":"Array",
+                                                    "contents":{
+                                                    }
+                                                },
+                                                "tips":""
+                                            },
+                                            "s_or_c":"client",
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":""
+                                        }
+                                    ]
+                                },
+                                "realReturnType":{
+                                    "ElementName":"SimpleType",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"触发器注册事件",
+                                    "flags":{
+                                    },
+                                    "name":"EventRegister",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                },
+                                "s_or_c":"client",
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "subsections":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":"",
+                                "typeParameters":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "typeParametersExtends":{
+                                    "__TYPE":"Map",
+                                    "contents":{
+                                    }
+                                },
+                                "uiText":"~1~触发自定义事件[更新阶段ui]时",
+                                "v2_version":0.800000,
+                                "variables":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "_properties":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"更新阶段ui",
+                    "extends_source":{
+                        "ElementName":"Source",
+                        "targetUninit":{
+                            "id":"__client__,Class:TriggerEvent",
+                            "packageName":"__client__",
+                            "s_or_c":"client"
+                        }
+                    },
+                    "flags":{
+                        "isDeclare":true
+                    },
+                    "folder":{
+                        "ElementName":"Folder",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "contents":{
+                            "__TYPE":"Array",
+                            "contents":[
+                                {
+                                    "ElementName":"Source",
+                                    "targetUninit":{
+                                        "id":"CustomEvent:更新阶段ui:500302400, MethodDefine:register",
+                                        "packageName":"p_8e93",
+                                        "s_or_c":"client"
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName":"",
+                        "flags":{
+                        },
+                        "name":"更新阶段ui",
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":""
+                    },
+                    "id":"CustomEvent:更新阶段ui:500302400",
+                    "image_type":{
+                        "ElementName":"SimpleType",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "displayName":"未定义",
+                        "flags":{
+                        },
+                        "name":"undefined",
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":""
+                    },
+                    "implements_sources":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "keyword":"",
+                    "name":"更新阶段ui",
+                    "packageName":"p_8e93",
+                    "s_or_c":"client",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "thisVariable":{
+                        "ElementName":"Variable",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "displayName":"this",
+                        "flags":{
+                            "isDeclare":true
+                        },
+                        "id":"Variable:this:2262807088",
+                        "keyword":"",
+                        "name":"this",
+                        "packageName":"p_8e93",
+                        "realType":{
+                            "ElementName":"InstanceType",
+                            "breakPointInfo":{
+                                "disabled":false,
+                                "hasBreakPoint":false,
+                                "type":2
+                            },
+                            "displayName":"",
+                            "flags":{
+                            },
+                            "source":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"CustomEvent:更新阶段ui:500302400",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"client"
+                                }
+                            },
+                            "staticWarningMsgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            },
+                            "tips":"",
+                            "typeArgs":{
+                                "__TYPE":"Array",
+                                "contents":{
+                                }
+                            }
+                        },
+                        "s_or_c":"client",
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":""
+                    },
+                    "tips":"",
+                    "typeParameters":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "typeParametersExtends":{
+                        "__TYPE":"Map",
+                        "contents":{
+                        }
+                    },
+                    "v2_version":0.800000
+                },
+                "image_type":{
+                    "ElementName":"SimpleType",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"未定义",
+                    "flags":{
+                    },
+                    "name":"undefined",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
+                },
+                "implements_sources":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "keyword":"",
+                "name":"更新阶段ui",
+                "packageName":"p_8e93",
+                "rankOrder":4,
+                "s_or_c":"server",
+                "staticWarningMsgs":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "thisVariable":{
+                    "ElementName":"Variable",
+                    "breakPointInfo":{
+                        "disabled":false,
+                        "hasBreakPoint":false,
+                        "type":2
+                    },
+                    "displayName":"this",
+                    "flags":{
+                        "isDeclare":true
+                    },
+                    "id":"Variable:this:4163479616",
+                    "keyword":"",
+                    "name":"this",
+                    "packageName":"p_8e93",
+                    "realType":{
+                        "ElementName":"InstanceType",
+                        "breakPointInfo":{
+                            "disabled":false,
+                            "hasBreakPoint":false,
+                            "type":2
+                        },
+                        "displayName":"",
+                        "flags":{
+                        },
+                        "source":{
+                            "ElementName":"Source",
+                            "targetUninit":{
+                                "id":"CustomEvent:更新阶段ui:979736324",
+                                "packageName":"p_8e93",
+                                "s_or_c":"server"
+                            }
+                        },
+                        "staticWarningMsgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        },
+                        "tips":"",
+                        "typeArgs":{
+                            "__TYPE":"Array",
+                            "contents":{
+                            }
+                        }
+                    },
+                    "s_or_c":"server",
+                    "staticWarningMsgs":{
+                        "__TYPE":"Array",
+                        "contents":{
+                        }
+                    },
+                    "tips":""
+                },
+                "tips":"",
+                "typeParameters":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "typeParametersExtends":{
+                    "__TYPE":"Map",
+                    "contents":{
+                    }
+                },
+                "v2_version":0.800000
             }
         ]
     },
@@ -6704,6 +7832,14 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
+                                                "id":"CustomEvent:更新阶段ui:979736324",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
                                                 "id":"Class:游戏阶段:2848214363",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
@@ -6720,14 +7856,6 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
-                                                "id":"FunctionDefine:阶段开始读秒:1352893254",
-                                                "packageName":"p_8e93",
-                                                "s_or_c":"server"
-                                            }
-                                        },
-                                        {
-                                            "ElementName":"Source",
-                                            "targetUninit":{
                                                 "id":"Variable:阶段下标:520029358",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
@@ -6737,6 +7865,14 @@
                                             "ElementName":"Source",
                                             "targetUninit":{
                                                 "id":"Variable:读秒计时器:458136535",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:阶段开始读秒:1352893254",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
                                             }
@@ -6824,7 +7960,7 @@
                     "contents":{
                     }
                 },
-                "rankOrder":9,
+                "rankOrder":10,
                 "realReturnType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{
@@ -7445,7 +8581,7 @@
                     "contents":{
                     }
                 },
-                "rankOrder":6,
+                "rankOrder":9,
                 "realReturnType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{
@@ -7633,6 +8769,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -7961,6 +9098,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8011,6 +9149,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8378,6 +9517,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -8971,6 +10111,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9021,6 +10162,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9071,6 +10213,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9386,6 +10529,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9436,6 +10580,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9486,6 +10631,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9536,6 +10682,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9591,6 +10738,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9641,6 +10789,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9691,6 +10840,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -9741,6 +10891,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -10532,6 +11683,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -10582,6 +11734,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -10632,6 +11785,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -10682,6 +11836,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -10732,6 +11887,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11098,6 +12254,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11466,6 +12623,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11516,6 +12674,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11831,6 +12990,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11881,6 +13041,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11931,6 +13092,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -11981,6 +13143,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -12296,6 +13459,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -12346,6 +13510,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -12396,6 +13561,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -12446,6 +13612,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -13202,6 +14369,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -13518,6 +14686,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -13568,6 +14737,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -13618,6 +14788,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -13668,6 +14839,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -14062,6 +15234,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -14112,6 +15285,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -14162,6 +15336,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -14212,6 +15387,7 @@
                                             "s_or_c":"server"
                                         }
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -14676,7 +15852,7 @@
                 "keyword":"",
                 "name":"所有游戏阶段",
                 "packageName":"p_8e93",
-                "rankOrder":5,
+                "rankOrder":6,
                 "realType":{
                     "ElementName":"InstanceType",
                     "breakPointInfo":{

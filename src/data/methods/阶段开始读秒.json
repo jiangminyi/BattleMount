@@ -150,7 +150,6 @@
                                     }
                                 ]
                             },
-                            "s_or_c":"server",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
@@ -358,41 +357,164 @@
                 "funcSource":{
                     "ElementName":"Source",
                     "targetUninit":{
-                        "id":"FunctionDefine:debug",
-                        "packageName":"__common__",
-                        "s_or_c":"common"
+                        "id":"FunctionDefine:send_custom_event1241251840",
+                        "packageName":"__server__",
+                        "s_or_c":"server"
                     }
                 },
                 "parameters":{
                     "__TYPE":"Array",
                     "contents":[
                         {
-                            "ElementName":"SourceValue",
+                            "ElementName":"NewClassFunctionCall",
                             "breakPointInfo":{
                                 "disabled":false,
                                 "hasBreakPoint":false,
                                 "type":2
                             },
+                            "caller":{
+                                "ElementName":"Instant",
+                                "breakPointInfo":{
+                                    "disabled":false,
+                                    "hasBreakPoint":false,
+                                    "type":2
+                                },
+                                "displayName":"",
+                                "flags":{
+                                },
+                                "staticWarningMsgs":{
+                                    "__TYPE":"Array",
+                                    "contents":{
+                                    }
+                                },
+                                "tips":"",
+                                "type":{
+                                    "ElementName":"SimpleType",
+                                    "breakPointInfo":{
+                                        "disabled":false,
+                                        "hasBreakPoint":false,
+                                        "type":2
+                                    },
+                                    "displayName":"未定义",
+                                    "flags":{
+                                    },
+                                    "name":"undefined",
+                                    "staticWarningMsgs":{
+                                        "__TYPE":"Array",
+                                        "contents":{
+                                        }
+                                    },
+                                    "tips":""
+                                }
+                            },
                             "displayName":"",
                             "flags":{
                             },
+                            "funcSource":{
+                                "ElementName":"Source",
+                                "targetUninit":{
+                                    "id":"CustomEvent:更新阶段ui:979736324:Constructor",
+                                    "packageName":"p_8e93",
+                                    "s_or_c":"server"
+                                }
+                            },
+                            "parameters":{
+                                "__TYPE":"Array",
+                                "contents":[
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "s_or_c":"server",
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"PresetPropertyId:(Preset:游戏3205234688.0, Linkspace:default, PresetKey:游戏)",
+                                                "packageName":"__server__",
+                                                "s_or_c":"server"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:新变量:4057649167",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "ElementName":"SourceValue",
+                                        "breakPointInfo":{
+                                            "disabled":false,
+                                            "hasBreakPoint":false,
+                                            "type":2
+                                        },
+                                        "displayName":"",
+                                        "flags":{
+                                        },
+                                        "staticWarningMsgs":{
+                                            "__TYPE":"Array",
+                                            "contents":{
+                                            }
+                                        },
+                                        "tips":"",
+                                        "valueSource":{
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:新变量:2196941333",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "s_or_c":"server",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{
                                 }
                             },
                             "tips":"",
-                            "valueSource":{
-                                "ElementName":"Source",
-                                "targetUninit":{
-                                    "id":"Variable:新变量:4057649167",
-                                    "packageName":"p_8e93",
-                                    "s_or_c":"server"
+                            "typeParameters":{
+                                "__TYPE":"Array",
+                                "contents":{
                                 }
                             }
                         }
                     ]
                 },
+                "s_or_c":"server",
                 "staticWarningMsgs":{
                     "__TYPE":"Array",
                     "contents":{
@@ -512,6 +634,7 @@
                                     "displayName":"",
                                     "flags":{
                                     },
+                                    "s_or_c":"server",
                                     "staticWarningMsgs":{
                                         "__TYPE":"Array",
                                         "contents":{
@@ -750,6 +873,24 @@
                                             "tips":""
                                         },
                                         {
+                                            "ElementName":"Comment",
+                                            "breakPointInfo":{
+                                                "disabled":false,
+                                                "hasBreakPoint":false,
+                                                "type":2
+                                            },
+                                            "displayName":"",
+                                            "flags":{
+                                            },
+                                            "staticWarningMsgs":{
+                                                "__TYPE":"Array",
+                                                "contents":{
+                                                }
+                                            },
+                                            "tips":"",
+                                            "value":"发送更新ui事件"
+                                        },
+                                        {
                                             "ElementName":"FunctionCall",
                                             "breakPointInfo":{
                                                 "disabled":false,
@@ -762,41 +903,164 @@
                                             "funcSource":{
                                                 "ElementName":"Source",
                                                 "targetUninit":{
-                                                    "id":"FunctionDefine:debug",
-                                                    "packageName":"__common__",
-                                                    "s_or_c":"common"
+                                                    "id":"FunctionDefine:send_custom_event1241251840",
+                                                    "packageName":"__server__",
+                                                    "s_or_c":"server"
                                                 }
                                             },
                                             "parameters":{
                                                 "__TYPE":"Array",
                                                 "contents":[
                                                     {
-                                                        "ElementName":"SourceValue",
+                                                        "ElementName":"NewClassFunctionCall",
                                                         "breakPointInfo":{
                                                             "disabled":false,
                                                             "hasBreakPoint":false,
                                                             "type":2
                                                         },
+                                                        "caller":{
+                                                            "ElementName":"Instant",
+                                                            "breakPointInfo":{
+                                                                "disabled":false,
+                                                                "hasBreakPoint":false,
+                                                                "type":2
+                                                            },
+                                                            "displayName":"",
+                                                            "flags":{
+                                                            },
+                                                            "staticWarningMsgs":{
+                                                                "__TYPE":"Array",
+                                                                "contents":{
+                                                                }
+                                                            },
+                                                            "tips":"",
+                                                            "type":{
+                                                                "ElementName":"SimpleType",
+                                                                "breakPointInfo":{
+                                                                    "disabled":false,
+                                                                    "hasBreakPoint":false,
+                                                                    "type":2
+                                                                },
+                                                                "displayName":"未定义",
+                                                                "flags":{
+                                                                },
+                                                                "name":"undefined",
+                                                                "staticWarningMsgs":{
+                                                                    "__TYPE":"Array",
+                                                                    "contents":{
+                                                                    }
+                                                                },
+                                                                "tips":""
+                                                            }
+                                                        },
                                                         "displayName":"",
                                                         "flags":{
                                                         },
+                                                        "funcSource":{
+                                                            "ElementName":"Source",
+                                                            "targetUninit":{
+                                                                "id":"CustomEvent:更新阶段ui:979736324:Constructor",
+                                                                "packageName":"p_8e93",
+                                                                "s_or_c":"server"
+                                                            }
+                                                        },
+                                                        "parameters":{
+                                                            "__TYPE":"Array",
+                                                            "contents":[
+                                                                {
+                                                                    "ElementName":"SourceValue",
+                                                                    "breakPointInfo":{
+                                                                        "disabled":false,
+                                                                        "hasBreakPoint":false,
+                                                                        "type":2
+                                                                    },
+                                                                    "displayName":"",
+                                                                    "flags":{
+                                                                    },
+                                                                    "s_or_c":"server",
+                                                                    "staticWarningMsgs":{
+                                                                        "__TYPE":"Array",
+                                                                        "contents":{
+                                                                        }
+                                                                    },
+                                                                    "tips":"",
+                                                                    "valueSource":{
+                                                                        "ElementName":"Source",
+                                                                        "targetUninit":{
+                                                                            "id":"PresetPropertyId:(Preset:游戏3205234688.0, Linkspace:default, PresetKey:游戏)",
+                                                                            "packageName":"__server__",
+                                                                            "s_or_c":"server"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "ElementName":"SourceValue",
+                                                                    "breakPointInfo":{
+                                                                        "disabled":false,
+                                                                        "hasBreakPoint":false,
+                                                                        "type":2
+                                                                    },
+                                                                    "displayName":"",
+                                                                    "flags":{
+                                                                    },
+                                                                    "staticWarningMsgs":{
+                                                                        "__TYPE":"Array",
+                                                                        "contents":{
+                                                                        }
+                                                                    },
+                                                                    "tips":"",
+                                                                    "valueSource":{
+                                                                        "ElementName":"Source",
+                                                                        "targetUninit":{
+                                                                            "id":"Variable:新变量:4057649167",
+                                                                            "packageName":"p_8e93",
+                                                                            "s_or_c":"server"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "ElementName":"SourceValue",
+                                                                    "breakPointInfo":{
+                                                                        "disabled":false,
+                                                                        "hasBreakPoint":false,
+                                                                        "type":2
+                                                                    },
+                                                                    "displayName":"",
+                                                                    "flags":{
+                                                                    },
+                                                                    "staticWarningMsgs":{
+                                                                        "__TYPE":"Array",
+                                                                        "contents":{
+                                                                        }
+                                                                    },
+                                                                    "tips":"",
+                                                                    "valueSource":{
+                                                                        "ElementName":"Source",
+                                                                        "targetUninit":{
+                                                                            "id":"Variable:新变量:2196941333",
+                                                                            "packageName":"p_8e93",
+                                                                            "s_or_c":"server"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "s_or_c":"server",
                                                         "staticWarningMsgs":{
                                                             "__TYPE":"Array",
                                                             "contents":{
                                                             }
                                                         },
                                                         "tips":"",
-                                                        "valueSource":{
-                                                            "ElementName":"Source",
-                                                            "targetUninit":{
-                                                                "id":"Variable:新变量:2196941333",
-                                                                "packageName":"p_8e93",
-                                                                "s_or_c":"server"
+                                                        "typeParameters":{
+                                                            "__TYPE":"Array",
+                                                            "contents":{
                                                             }
                                                         }
                                                     }
                                                 ]
                                             },
+                                            "s_or_c":"server",
                                             "staticWarningMsgs":{
                                                 "__TYPE":"Array",
                                                 "contents":{
@@ -1017,41 +1281,6 @@
                                                                         "hasBreakPoint":false,
                                                                         "type":2
                                                                     },
-                                                                    "caller":{
-                                                                        "ElementName":"Instant",
-                                                                        "breakPointInfo":{
-                                                                            "disabled":false,
-                                                                            "hasBreakPoint":false,
-                                                                            "type":2
-                                                                        },
-                                                                        "displayName":"",
-                                                                        "flags":{
-                                                                        },
-                                                                        "staticWarningMsgs":{
-                                                                            "__TYPE":"Array",
-                                                                            "contents":{
-                                                                            }
-                                                                        },
-                                                                        "tips":"",
-                                                                        "type":{
-                                                                            "ElementName":"SimpleType",
-                                                                            "breakPointInfo":{
-                                                                                "disabled":false,
-                                                                                "hasBreakPoint":false,
-                                                                                "type":2
-                                                                            },
-                                                                            "displayName":"未定义",
-                                                                            "flags":{
-                                                                            },
-                                                                            "name":"undefined",
-                                                                            "staticWarningMsgs":{
-                                                                                "__TYPE":"Array",
-                                                                                "contents":{
-                                                                                }
-                                                                            },
-                                                                            "tips":""
-                                                                        }
-                                                                    },
                                                                     "displayName":"",
                                                                     "flags":{
                                                                     },
@@ -1235,7 +1464,7 @@
         "contents":{
         }
     },
-    "rankOrder":6,
+    "rankOrder":9,
     "realReturnType":{
         "ElementName":"SimpleType",
         "breakPointInfo":{
@@ -1382,6 +1611,7 @@
                 "keyword":"",
                 "name":"当前游戏阶段",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"InstanceType",
                     "breakPointInfo":{
@@ -1487,6 +1717,7 @@
                 "keyword":"",
                 "name":"阶段持续时间",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{
@@ -1580,6 +1811,7 @@
                 "keyword":"",
                 "name":"阶段剩余时间",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{
@@ -1673,6 +1905,7 @@
                 "keyword":"",
                 "name":"当前阶段名称",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{

@@ -143,9 +143,12 @@
 @defaultui/image/control/锁定技能框.png
 @defaultui/image/control/默认技能框3.png
 @defaultui/image/panel/底框_快捷键.png
+@p_8e93/image/cash (1).png
+@p_8e93/image/evil-minion.png
 @p_8e93/image/icon_guanqia_19.png
 @p_8e93/image/icons/顶部信息栏.png
-@p_8e93/image/warlord-helmet.png
+@p_8e93/image/logging (1).png
+@p_8e93/image/minions (2).png
 @single_simple_ts_template_5_vhib/image/Weiyan_R.png
 @smallcard_inventory/image/test_icon.png
 @smallcard_inventory/image/品质框=橙色.png
