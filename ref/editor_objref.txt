@@ -145,6 +145,7 @@
 @defaultui/image/panel/底框_快捷键.png
 @p_8e93/image/icon_guanqia_19.png
 @p_8e93/image/icons/顶部信息栏.png
+@p_8e93/image/warlord-helmet.png
 @single_simple_ts_template_5_vhib/image/Weiyan_R.png
 @smallcard_inventory/image/test_icon.png
 @smallcard_inventory/image/品质框=橙色.png
@@ -229,7 +230,6 @@ anim/human/sword_anim/DaJianZhanShi/skill_03.ani
 anim/human/sword_anim/DaJianZhanShi/skill_04.ani
 anim/human/sword_anim/dajianzhanshi/skill_01.ani
 anim/human/sword_anim/dajianzhanshi/skill_02.ani
-anim/human/sword_anim/twohand_02/attack_03.ani
 anim/human/sword_anim/twohand_04/attack_04.ani
 anim/west_fantasy/base_female_anim/mage/skull_05/skill_02.ani
 anim/west_fantasy/base_female_anim/mage/staff_03/attack_01.ani
@@ -715,7 +715,6 @@ image/btn/xf_3_major_active.png
 image/btn/xf_3_minor.png
 image/btn/xf_3_minor_active.png
 image/ic_store.png
-image/icon_guanqia_18.png
 image/icon_guanqia_19.png
 image/icon_tower_1.png
 image/icon_tower_2.png
@@ -778,7 +777,6 @@ sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_05.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_06.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_07.ogg
 sound/a2_sfx/action/moveaction/footsteps/fs_gen_2feet_wood_08.ogg
-sound/a2_sfx/fight/impact/sfx_imp_punch_dash.ogg
 sound/a2_sfx/fight/impact/sfx_imp_punch_dash_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_cast_imprisoned_01.ogg
 sound/a2_sfx/fight/magic/sfx_magic_fireball_large_blast.ogg

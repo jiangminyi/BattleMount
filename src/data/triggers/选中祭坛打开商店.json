@@ -739,7 +739,7 @@
     "keyword":"",
     "name":"选中祭坛打开商店",
     "packageName":"p_8e93",
-    "rankOrder":4,
+    "rankOrder":2,
     "realType":{
         "ElementName":"InstanceType",
         "breakPointInfo":{

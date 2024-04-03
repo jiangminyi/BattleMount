@@ -43,12 +43,13 @@
     },
     "displayName":"场景怪物总数",
     "flags":{
+        "fromOop":true
     },
     "id":"Variable:场景怪物总数:2448350299",
     "keyword":"",
     "name":"场景怪物总数",
     "packageName":"p_8e93",
-    "rankOrder":7,
+    "rankOrder":3,
     "realType":{
         "ElementName":"SimpleType",
         "breakPointInfo":{

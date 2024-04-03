@@ -767,6 +767,41 @@
                                                                             "funcSource":{
                                                                                 "ElementName":"Source",
                                                                                 "targetUninit":{
+                                                                                    "id":"FunctionDefine:怪物生成时更新场景怪物总数:583569109",
+                                                                                    "packageName":"p_8e93",
+                                                                                    "s_or_c":"server"
+                                                                                }
+                                                                            },
+                                                                            "parameters":{
+                                                                                "__TYPE":"Array",
+                                                                                "contents":{
+                                                                                }
+                                                                            },
+                                                                            "staticWarningMsgs":{
+                                                                                "__TYPE":"Array",
+                                                                                "contents":{
+                                                                                }
+                                                                            },
+                                                                            "tips":"",
+                                                                            "typeParameters":{
+                                                                                "__TYPE":"Array",
+                                                                                "contents":{
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "ElementName":"FunctionCall",
+                                                                            "breakPointInfo":{
+                                                                                "disabled":false,
+                                                                                "hasBreakPoint":false,
+                                                                                "type":2
+                                                                            },
+                                                                            "displayName":"",
+                                                                            "flags":{
+                                                                            },
+                                                                            "funcSource":{
+                                                                                "ElementName":"Source",
+                                                                                "targetUninit":{
                                                                                     "id":"FunctionDefine:unit_ai_attack_move_to:2443501791",
                                                                                     "packageName":"lib_common_ai",
                                                                                     "s_or_c":"server"
@@ -1733,7 +1768,7 @@
             }
         ]
     },
-    "rankOrder":2,
+    "rankOrder":3,
     "realReturnType":{
         "ElementName":"SimpleType",
         "breakPointInfo":{

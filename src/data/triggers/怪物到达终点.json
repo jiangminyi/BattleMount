@@ -1957,7 +1957,8 @@
         ]
     },
     "flags":{
-        "enableDisplayName":true
+        "enableDisplayName":true,
+        "initOn":false
     },
     "id":"Trigger:怪物到达终点:1417543680",
     "keyword":"",
@@ -1997,8 +1998,33 @@
     "s_or_c":"server",
     "scenes":{
         "__TYPE":"Array",
-        "contents":{
-        }
+        "contents":[
+            {
+                "ElementName":"SourceValue",
+                "breakPointInfo":{
+                    "disabled":false,
+                    "hasBreakPoint":false,
+                    "type":2
+                },
+                "displayName":"",
+                "flags":{
+                },
+                "staticWarningMsgs":{
+                    "__TYPE":"Array",
+                    "contents":{
+                    }
+                },
+                "tips":"",
+                "valueSource":{
+                    "ElementName":"Source",
+                    "targetUninit":{
+                        "id":"PresetPropertyId:(Preset:Scene, Linkspace:default, PresetKey:default)",
+                        "packageName":"__common__",
+                        "s_or_c":"common"
+                    }
+                }
+            }
+        ]
     },
     "staticWarningMsgs":{
         "__TYPE":"Array",
