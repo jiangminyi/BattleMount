@@ -10,11 +10,11 @@ local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
 local lib_game_options = require '@lib_game_options.component'
-local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
-local lib_control = require '@lib_control.component'
 local smallcard_store = require '@smallcard_store.component'
 local gameui = require '@gameui.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
+local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
+local lib_control = require '@lib_control.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -153,7 +153,7 @@ return gui_pkg.page_template {
             show = false,
             socket_name = 'socket_root',
         },1,
-        gameui.sci_1_minor_btn {
+        gameui.gf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -181,7 +181,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.normal_rect {
+        gameui.sci_1_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -572,7 +572,7 @@ return gui_pkg.page_template {
             name = '金钱面板',
             show = true,
         },7,
-        gameui.sci_1_minor_btn {
+        gameui.gf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -602,7 +602,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },8,
-        gameui.sci_1_minor_btn {
+        gameui.gf_3_minor_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -853,7 +853,7 @@ return gui_pkg.page_template {
             show = true,
             text = '拆除',
         },31,
-        gameui.normal_rect {
+        gameui.sci_1_rect {
             border = {
                 bottom = 30,
                 left = 128,

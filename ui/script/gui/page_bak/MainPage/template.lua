@@ -9,12 +9,12 @@ local on_unit_prop = require '@common.base.gui.on_unit_prop'
 local ctrl_wrapper = require '@common.base.gui.ctrl_wrapper'
 
 
+local lib_control = require '@lib_control.component'
+local smallcard_store = require '@smallcard_store.component'
 local gameui = require '@gameui.component'
 local smallcard_unit_attr_panel = require '@smallcard_unit_attr_panel.component'
-local lib_game_options = require '@lib_game_options.component'
-local lib_control = require '@lib_control.component'
 local smallcard_inventory = require '@smallcard_inventory.component'
-local smallcard_store = require '@smallcard_store.component'
+local lib_game_options = require '@lib_game_options.component'
 
 return gui_pkg.page_template {
     flatten_template = {
@@ -26,8 +26,8 @@ return gui_pkg.page_template {
                 grow_height = 1,
                 grow_width = 1,
                 relative = {
-                    [1] = 0,
-                    [2] = 0,
+                    [1] = 1.9685668945312,
+                    [2] = 1.9685668945312,
                 },
             },
             name = 'MainPage',
@@ -148,10 +148,10 @@ return gui_pkg.page_template {
             },
             name = '防御塔面板',
             scale_by_distance = false,
-            show = true,
+            show = false,
             socket_name = 'socket_root',
         },1,
-        gameui.xf_2_major_btn {
+        gameui.gf_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 30,
@@ -179,7 +179,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },1,
-        gameui.xf_3_rect {
+        gameui.normal_rect {
             border = {
                 bottom = 45,
                 left = 45,
@@ -523,18 +523,18 @@ return gui_pkg.page_template {
         },6,
         ctrl_wrapper.panel {
             color = 'rgba(255,255,255,255)',
-            image = 'image/icon_guanqia_18.png',
+            image = '@p_8e93/image/warlord-helmet.png',
             layout = {
                 col_self = 'center',
                 grow_height = 0,
                 grow_width = 0,
-                height = 50,
+                height = 44.0,
                 relative = {
                     [1] = 30,
                     [2] = 0.0,
                 },
                 row_self = 'start',
-                width = 50,
+                width = 49.0,
             },
             name = '生命面板',
         },7,
@@ -555,7 +555,7 @@ return gui_pkg.page_template {
             },
             name = '金钱面板',
         },7,
-        gameui.xf_2_major_btn {
+        gameui.gf_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -584,7 +584,7 @@ return gui_pkg.page_template {
             text_color = '#000000',
             text_opacity = 1,
         },8,
-        gameui.xf_2_major_btn {
+        gameui.gf_1_major_btn {
             active_image = 'image/btn/sci_1_major_active.png',
             border = {
                 bottom = 0,
@@ -670,8 +670,8 @@ return gui_pkg.page_template {
                 row_self = 'start',
                 width = 85.698120117188,
             },
-            name = '生命',
-            text = '生命',
+            name = '怪物数量',
+            text = '怪物数量',
         },28,
         ctrl_wrapper.label {
             font = {
@@ -825,7 +825,7 @@ return gui_pkg.page_template {
             name = '拆除描述文本',
             text = '拆除',
         },31,
-        gameui.xf_3_rect {
+        gameui.normal_rect {
             border = {
                 bottom = 30,
                 left = 128,

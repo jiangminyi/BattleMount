@@ -12,41 +12,6 @@
             "hasBreakPoint":false,
             "type":2
         },
-        "caller":{
-            "ElementName":"Instant",
-            "breakPointInfo":{
-                "disabled":false,
-                "hasBreakPoint":false,
-                "type":2
-            },
-            "displayName":"",
-            "flags":{
-            },
-            "staticWarningMsgs":{
-                "__TYPE":"Array",
-                "contents":{
-                }
-            },
-            "tips":"",
-            "type":{
-                "ElementName":"SimpleType",
-                "breakPointInfo":{
-                    "disabled":false,
-                    "hasBreakPoint":false,
-                    "type":2
-                },
-                "displayName":"未定义",
-                "flags":{
-                },
-                "name":"undefined",
-                "staticWarningMsgs":{
-                    "__TYPE":"Array",
-                    "contents":{
-                    }
-                },
-                "tips":""
-            }
-        },
         "displayName":"",
         "flags":{
         },
@@ -67,41 +32,6 @@
                         "disabled":false,
                         "hasBreakPoint":false,
                         "type":2
-                    },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
                     },
                     "displayName":"",
                     "flags":{
@@ -250,41 +180,6 @@
                         "hasBreakPoint":false,
                         "type":2
                     },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
-                    },
                     "displayName":"",
                     "flags":{
                     },
@@ -431,41 +326,6 @@
                         "disabled":false,
                         "hasBreakPoint":false,
                         "type":2
-                    },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
                     },
                     "displayName":"",
                     "flags":{
@@ -614,41 +474,6 @@
                         "hasBreakPoint":false,
                         "type":2
                     },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
-                    },
                     "displayName":"",
                     "flags":{
                     },
@@ -795,41 +620,6 @@
                         "disabled":false,
                         "hasBreakPoint":false,
                         "type":2
-                    },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
                     },
                     "displayName":"",
                     "flags":{
@@ -978,41 +768,6 @@
                         "hasBreakPoint":false,
                         "type":2
                     },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
-                    },
                     "displayName":"",
                     "flags":{
                     },
@@ -1159,41 +914,6 @@
                         "disabled":false,
                         "hasBreakPoint":false,
                         "type":2
-                    },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
                     },
                     "displayName":"",
                     "flags":{
@@ -1342,41 +1062,6 @@
                         "hasBreakPoint":false,
                         "type":2
                     },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
-                    },
                     "displayName":"",
                     "flags":{
                     },
@@ -1523,41 +1208,6 @@
                         "disabled":false,
                         "hasBreakPoint":false,
                         "type":2
-                    },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
                     },
                     "displayName":"",
                     "flags":{
@@ -1706,41 +1356,6 @@
                         "hasBreakPoint":false,
                         "type":2
                     },
-                    "caller":{
-                        "ElementName":"Instant",
-                        "breakPointInfo":{
-                            "disabled":false,
-                            "hasBreakPoint":false,
-                            "type":2
-                        },
-                        "displayName":"",
-                        "flags":{
-                        },
-                        "staticWarningMsgs":{
-                            "__TYPE":"Array",
-                            "contents":{
-                            }
-                        },
-                        "tips":"",
-                        "type":{
-                            "ElementName":"SimpleType",
-                            "breakPointInfo":{
-                                "disabled":false,
-                                "hasBreakPoint":false,
-                                "type":2
-                            },
-                            "displayName":"未定义",
-                            "flags":{
-                            },
-                            "name":"undefined",
-                            "staticWarningMsgs":{
-                                "__TYPE":"Array",
-                                "contents":{
-                                }
-                            },
-                            "tips":""
-                        }
-                    },
                     "displayName":"",
                     "flags":{
                     },
@@ -1762,7 +1377,6 @@
                         "displayName":"",
                         "flags":{
                         },
-                        "s_or_c":"server",
                         "staticWarningMsgs":{
                             "__TYPE":"Array",
                             "contents":{
@@ -1934,7 +1548,7 @@
     "keyword":"",
     "name":"所有游戏阶段",
     "packageName":"p_8e93",
-    "rankOrder":2,
+    "rankOrder":5,
     "realType":{
         "ElementName":"InstanceType",
         "breakPointInfo":{

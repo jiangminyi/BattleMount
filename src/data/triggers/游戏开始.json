@@ -1863,6 +1863,7 @@
                             "displayName":"",
                             "flags":{
                             },
+                            "s_or_c":"server",
                             "staticWarningMsgs":{
                                 "__TYPE":"Array",
                                 "contents":{

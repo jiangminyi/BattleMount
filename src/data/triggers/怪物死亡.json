@@ -2466,6 +2466,7 @@
                 "keyword":"",
                 "name":"新变量",
                 "packageName":"p_8e93",
+                "rankOrder":0,
                 "realType":{
                     "ElementName":"SimpleType",
                     "breakPointInfo":{

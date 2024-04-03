@@ -322,13 +322,13 @@
                     "value":120
                 },
                 "description":"",
-                "displayName":"最大存在时间",
+                "displayName":"持续时间",
                 "flags":{
                 },
-                "id":"Class:游戏阶段:2848214363, ClassProperty:最大存在时间",
+                "id":"Class:游戏阶段:2848214363, ClassProperty:持续时间",
                 "keyword":"",
                 "label":"默认",
-                "name":"最大存在时间",
+                "name":"持续时间",
                 "packageName":"p_8e93",
                 "rankOrder":4,
                 "realType":{
@@ -397,7 +397,7 @@
                 {
                     "ElementName":"Source",
                     "targetUninit":{
-                        "id":"Class:游戏阶段:2848214363, ClassProperty:最大存在时间",
+                        "id":"Class:游戏阶段:2848214363, ClassProperty:持续时间",
                         "packageName":"p_8e93",
                         "s_or_c":"server"
                     }
@@ -442,7 +442,7 @@
     "keyword":"",
     "name":"游戏阶段",
     "packageName":"p_8e93",
-    "rankOrder":1,
+    "rankOrder":4,
     "s_or_c":"server",
     "staticWarningMsgs":{
         "__TYPE":"Array",
@@ -463,41 +463,6 @@
                 "hasBreakPoint":false,
                 "type":2
             },
-            "caller":{
-                "ElementName":"Instant",
-                "breakPointInfo":{
-                    "disabled":false,
-                    "hasBreakPoint":false,
-                    "type":2
-                },
-                "displayName":"",
-                "flags":{
-                },
-                "staticWarningMsgs":{
-                    "__TYPE":"Array",
-                    "contents":{
-                    }
-                },
-                "tips":"",
-                "type":{
-                    "ElementName":"SimpleType",
-                    "breakPointInfo":{
-                        "disabled":false,
-                        "hasBreakPoint":false,
-                        "type":2
-                    },
-                    "displayName":"未定义",
-                    "flags":{
-                    },
-                    "name":"undefined",
-                    "staticWarningMsgs":{
-                        "__TYPE":"Array",
-                        "contents":{
-                        }
-                    },
-                    "tips":""
-                }
-            },
             "displayName":"",
             "flags":{
             },
@@ -514,6 +479,7 @@
                 "contents":{
                 }
             },
+            "s_or_c":"server",
             "staticWarningMsgs":{
                 "__TYPE":"Array",
                 "contents":{
@@ -533,6 +499,7 @@
         "keyword":"",
         "name":"this",
         "packageName":"p_8e93",
+        "rankOrder":0,
         "realType":{
             "ElementName":"InstanceType",
             "breakPointInfo":{

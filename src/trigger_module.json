@@ -394,7 +394,7 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
-                                                "id":"Variable:场景怪物总数:2448350299",
+                                                "id":"Trigger:选中祭坛打开商店:4186307273",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
                                             }
@@ -402,7 +402,7 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
-                                                "id":"Trigger:选中祭坛打开商店:4186307273",
+                                                "id":"Variable:场景怪物总数:2448350299",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
                                             }
@@ -458,14 +458,6 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
-                                                "id":"FunctionDefine:根据刷怪数编表创造怪物:1736498993",
-                                                "packageName":"p_8e93",
-                                                "s_or_c":"server"
-                                            }
-                                        },
-                                        {
-                                            "ElementName":"Source",
-                                            "targetUninit":{
                                                 "id":"Trigger:按a:1930328732",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
@@ -478,6 +470,14 @@
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
                                             }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:根据刷怪数编表创造怪物:1736498993",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
                                         }
                                     ]
                                 },
@@ -485,7 +485,7 @@
                                 "flags":{
                                 },
                                 "name":"刷怪表相关",
-                                "rankOrder":4,
+                                "rankOrder":3,
                                 "staticWarningMsgs":{
                                     "__TYPE":"Array",
                                     "contents":{
@@ -506,6 +506,30 @@
                                         {
                                             "ElementName":"Source",
                                             "targetUninit":{
+                                                "id":"Trigger:测试:414274931",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Trigger:当前阶段结束时:1645457479",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"CustomEvent:当前阶段读秒完成:2104835511",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
                                                 "id":"Class:游戏阶段:2848214363",
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
@@ -518,6 +542,38 @@
                                                 "packageName":"p_8e93",
                                                 "s_or_c":"server"
                                             }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:阶段开始读秒:1352893254",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:阶段下标:520029358",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"Variable:读秒计时器:458136535",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
+                                        },
+                                        {
+                                            "ElementName":"Source",
+                                            "targetUninit":{
+                                                "id":"FunctionDefine:开始下一阶段:2578693174",
+                                                "packageName":"p_8e93",
+                                                "s_or_c":"server"
+                                            }
                                         }
                                     ]
                                 },
@@ -525,7 +581,7 @@
                                 "flags":{
                                 },
                                 "name":"阶段相关",
-                                "rankOrder":5,
+                                "rankOrder":4,
                                 "staticWarningMsgs":{
                                     "__TYPE":"Array",
                                     "contents":{
